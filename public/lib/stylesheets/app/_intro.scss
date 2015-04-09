@@ -1,0 +1,88 @@
+/**
+ * Name: Intro
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+ .main-section{
+ 	background-image: url(../images/hero.jpg);
+ 	background-color: $hero-bg;
+ 	background-repeat: no-repeat;
+ 	background-position: 60% 30%;
+ 	min-height: inherit;
+ 	background-attachment: fixed;
+ 	background-size: cover;
+ 	border-bottom: none;
+ 	padding :0;
+ }
+ .hero{
+ 	background: rgba(0,0,0,0.8);
+ 	padding: 50px 0;
+ }
+ .intro{
+ 	margin-top: 7%;
+ 	text-align: center;
+	//Intro Box
+	.intro-box{
+		max-width: $intro-box-width;
+		margin: auto;
+		//Intro Main
+		.intro-main{
+			font-size: $intro-main-font-size;
+			font-weight: $intro-main-font-weight;
+			color: $intro-main-color;
+			text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+			text-transform: uppercase;
+			animation-duration: 1s;
+			animation-delay: 0.5s;
+		}
+		//Intro Tagline
+		.intro-tagline{
+			font-size: $intro-tagline-font-size;
+			font-weight: $intro-tagline-font-weight;
+			color: $intro-tagline-color;
+			text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+			line-height: $intro-tagline-line-height;
+			animation-duration: 1s;
+			animation-delay: 1s;
+		}
+		//Intro Dates
+		.intro-dates{
+			font-size: $intro-date-font-size;
+			font-weight: $intro-date-font-weight;
+			color: $intro-date-color;
+			text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+			margin-top: 20px;
+			animation-duration: 1s;
+			animation-delay: 1.5s;
+		}
+		//Intro CTA
+		.intro-cta{
+			margin-top: 30px;
+			animation-duration: 1s;
+			animation-delay: 2.5s;
+			//Btn
+			.btn{
+				box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+				animation-duration: 1s;
+				animation-delay: 3.5s;
+			}
+		}
+		//Intro Extra
+		.intro-extra{
+			animation-duration: 1s;
+			animation-delay: 2s;
+			margin-top: 40px;
+			//a
+			a{
+				color: $intro-extra-color;
+				background: $intro-extra-bg;
+				padding: $intro-extra-padding;
+				text-decoration: none;
+				//:hover
+				&:hover{
+					background: $intro-extra-bg-hover;
+				}
+			}
+		}
+	}
+}

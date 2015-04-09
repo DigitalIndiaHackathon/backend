@@ -1,0 +1,19 @@
+/**
+ * Name: Footer
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+.footer{
+	padding: 20px;
+	background: #faf8fb;
+	//a
+	a{
+		text-transform: none;
+		color: $brand-success;
+		font-size: 14px;
+		//hover
+		&:hover{
+			color: darken($brand-success, 10%);
+		}
+	}
+}

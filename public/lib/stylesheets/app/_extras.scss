@@ -1,0 +1,19 @@
+/**
+ * Name: Extras
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+a{
+	transition: all 0.3s linear;
+}
+
+body{
+	overflow-x: hidden;
+}
+.toBeAnimated{
+	visibility: hidden;
+	display: none;
+}
+.shown{
+	display: block !important;
+}

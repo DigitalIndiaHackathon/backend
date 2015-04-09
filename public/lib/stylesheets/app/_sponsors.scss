@@ -1,0 +1,45 @@
+/**
+ * Name: Sponsors
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+
+//Sponsor List
+.sponsor-list{
+	margin-bottom: 100px;
+	//Sponsor
+	.sponsor{
+		display: block;
+		margin-bottom: 15px;
+		//Hover
+		&:hover{
+			//Img
+			img{
+				filter: none;
+			}
+		}
+		//Img
+		img{
+			transition: all 0.3s ease-in;
+			background: #eee;
+			border-radius: 3px;
+			filter: #{"grayscale(100%)"};
+		}
+	}
+}
+
+//team members
+.team-members{
+	margin-top: 30px;
+}
+//team-member
+.team-member{
+	display: block;
+	margin-bottom: 15px;
+	img{
+		filter: none !important;
+		//max-height: 280px;
+		//height: 100%;
+		border-radius: 4px;
+	}
+}

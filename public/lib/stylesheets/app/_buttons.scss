@@ -1,0 +1,26 @@
+/**
+ * Name: Buttons
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+.btn{
+	padding: $btn-padding-base;
+	text-transform: uppercase;
+	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
+	//Icon Left
+	.icon-left{
+		margin-right: 5px;
+	}
+	//Icon right
+	.icon-right{
+		margin-left: 5px;
+	}
+}
+//Btn Lg
+.btn-lg{
+	padding: $btn-padding-large;
+}
+//Btn Default, Link
+.btn-default, .btn-link{
+	text-shadow: none;
+}

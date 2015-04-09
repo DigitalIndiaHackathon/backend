@@ -1,0 +1,78 @@
+/**
+ * Name: Contact
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+ .contact-section{
+	//section-title
+	.section-title{
+		margin-bottom:10px;
+	}
+	//Section Notice
+	.section-notice{
+		font-size: 16px;
+		//a
+		a{
+			color: $brand-success;
+		}
+	}
+	//Contact Area
+	.contact-area{
+		margin-top: 20px;
+		//Form
+		form{
+			padding: 30px;
+			background: #fff;
+			border: solid 1px #ddd;
+			border-radius: 5px;
+			margin-bottom: 20px;
+			//label
+			label{
+				color: $brand-success;
+				text-transform: uppercase;
+			}
+		}
+		//Social Links
+		.social-links{
+			//Title
+			.title{
+				font-size: 14px;
+				color: $brand-success;
+				text-transform: uppercase;
+				font-weight: bold;
+			}
+			//Social Link
+			.social-link{
+				display: block;
+				background: #fff;
+				padding: 20px;
+				color: #946da7;
+				border: solid 1px #ddd;
+				border-radius: 3px;
+				font-size: 16px;
+				text-transform: uppercase;
+				font-weight: bold;
+				text-align: right;
+				margin: 10px 0;
+				//Facebook
+				&.facebook{
+					color: #3b5998;
+				}
+				//Twitter
+				&.twitter{
+					color: #55acee;
+				}
+				//GitHub
+				&.github{
+					color: #666;
+				}
+				//Icon
+				.icon{
+					float: left;
+					margin-top: -3px;
+					font-size: 30px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,63 @@
+/**
+ * Name: Media Queries
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+ @media (max-width: $screen-md-min) {
+ 	.header{
+ 		.header-nav{
+ 			display: none;
+ 			position: fixed;
+ 			z-index: 1000;
+ 			max-width: 100%;
+ 			width: 300px;
+ 			right: 0;
+ 			top: 0;
+ 			bottom: 0;
+ 			background: $brand-primary;
+ 			box-shadow: -1px 0px 4px rgba(0,0,0,0.3);
+ 			overflow: auto;
+	 		//shown
+	 		&.shown{
+	 			display: block;
+	 			animation-duration: 0.3s;
+	 		}
+	 		.nav-main{
+	 			display: block;
+	 			margin: 0;
+				//li
+				li{
+					display: block;
+					float: none;
+					//a
+					a{
+						padding: 15px;
+						display: block;
+						color: #fff;
+						background: rgba(0,0,0,0.1);
+						border: none;
+						border-bottom: solid 1px rgba(0,0,0,0.2);
+						//:hover
+						&:hover{
+							background: rgba(0,0,0,0.2);
+						}
+					}
+					//:first-child
+					&:first-child{
+						//a
+						a{
+							border-radius: 0;
+						}
+					}
+					//:last-child
+					&:last-child{
+						//a
+						a{
+							border-radius: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

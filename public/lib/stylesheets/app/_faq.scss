@@ -1,0 +1,50 @@
+/**
+ * Name: FAQ
+ * Author: Kunal Varma
+ * Version: 1.0.0
+ */
+ .faq-section{
+	//Section Header
+	.section-header{
+		margin-top: 15px;
+		margin-bottom: 30px;
+		//Section Title
+		.section-title{
+			margin: 0;
+		}
+		//Search
+		.search{
+			margin-top: 12px;
+		}
+	}
+	//Faq List
+	.faq-list{
+		//Panel Heading
+		.panel-heading{
+			background: #fff;
+			padding:0;
+			//panel-title
+			.panel-title{
+				//a
+				a{
+					background: #fff;
+					font-size: 18px;
+					color: $brand-success;
+					display: block;
+					text-align: center;
+					padding: 20px;
+					text-decoration: none;
+					//:hover
+					&:hover{
+						background: #f8f8f8;
+					}
+				}
+			}
+		}
+		//Panel Body
+		.panel-body{
+			font-size: 14px;
+			color: $gray-light;
+		}
+	}
+}
