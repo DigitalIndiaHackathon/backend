@@ -13,7 +13,7 @@ class UserRepository
     /**
      * Signup a new account with the given parameters
      *
-     * @param  array $input Array containing 'email' and 'password'.
+     * @param  array $input Array containing 'username', 'email' and 'password'.
      *
      * @return  User User object that may or may not be saved successfully. Check the id to make sure.
      */
@@ -21,8 +21,14 @@ class UserRepository
     {
         $user = new User;
 
+        $user->name = array_get($input, 'name');
+
+        $user->username = array_get($input, 'username');
         $user->email    = array_get($input, 'email');
         $user->password = array_get($input, 'password');
+
+        $user->role = array_get($input, 'role');
+
 
         // The password confirmation will be removed from model
         // before saving. This field will be used in Ardent's
@@ -41,7 +47,7 @@ class UserRepository
     /**
      * Attempts to login with the given credentials.
      *
-     * @param  array $input Array containing the credentials (email and password)
+     * @param  array $input Array containing the credentials (email/username and password)
      *
      * @return  boolean Success?
      */
@@ -58,7 +64,7 @@ class UserRepository
      * Checks if the credentials has been throttled by too
      * much failed login attempts
      *
-     * @param  array $credentials Array containing the credentials (email and password)
+     * @param  array $credentials Array containing the credentials (email/username and password)
      *
      * @return  boolean Is throttled
      */
@@ -71,7 +77,7 @@ class UserRepository
      * Checks if the given credentials correponds to a user that exists but
      * is not confirmed
      *
-     * @param  array $credentials Array containing the credentials (email and password)
+     * @param  array $credentials Array containing the credentials (email/username and password)
      *
      * @return  boolean Exists and is not confirmed?
      */
@@ -83,7 +89,7 @@ class UserRepository
             $correctPassword = Hash::check(
                 isset($input['password']) ? $input['password'] : false,
                 $user->password
-            );
+                );
 
             return (! $user->confirmed && $correctPassword);
         }

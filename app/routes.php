@@ -17,14 +17,16 @@ Route::get('/', function()
 });
 //
 
-// Confide routes
-Route::get('users/create', 'UsersController@create');
-Route::post('users', 'UsersController@store');
-Route::get('users/login', 'UsersController@login');
-Route::post('users/login', 'UsersController@doLogin');
-Route::get('users/confirm/{code}', 'UsersController@confirm');
-Route::get('users/forgot_password', 'UsersController@forgotPassword');
-Route::post('users/forgot_password', 'UsersController@doForgotPassword');
-Route::get('users/reset_password/{token}', 'UsersController@resetPassword');
-Route::post('users/reset_password', 'UsersController@doResetPassword');
-Route::get('users/logout', 'UsersController@logout');
+Route::group(array('prefix' => "auth"), function(){
+	// Confide routes
+	Route::get('users/create', array('uses' => 'UsersController@create', 'as' => "auth.signup"));
+	Route::post('users', array('uses' => 'UsersController@store', 'as' => "auth.signup.post"));
+	Route::get('users/login', array('uses' => 'UsersController@login', 'as' => "auth.login"));
+	Route::post('users/login', array('uses' => 'UsersController@doLogin', 'as' => "auth.login.post"));
+	Route::get('users/confirm/{code}', array('uses' => 'UsersController@confirm', 'as' => "auth.confirm"));
+	Route::get('users/forgot_password', array('uses' => 'UsersController@forgotPassword', 'as' => "auth.forgot_password"));
+	Route::post('users/forgot_password', array('uses' => 'UsersController@doForgotPassword', 'as' => "auth.forgot_password.post"));
+	Route::get('users/reset_password/{token}', array('uses' => 'UsersController@resetPassword', 'as' => "auth.reset_password"));
+	Route::post('users/reset_password', array('uses' => 'UsersController@doResetPassword', 'as' => "auth.reset_password.post"));
+	Route::get('users/logout', array('uses' => 'UsersController@logout', 'as' => "auth.logout"));
+});

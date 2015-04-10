@@ -9,7 +9,7 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class User extends Eloquent implements UserInterface, RemindableInterface, ConfideUserInterface {
 
-	use UserTrait, RemindableTrait, ConfideUser;
+	use ConfideUser;
 
 	/**
 	 * The database table used by the model.
