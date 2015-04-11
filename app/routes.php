@@ -70,3 +70,7 @@ Route::group(array('prefix' => "backend", 'before' => "auth"), function(){
 	Route::get('search', array('uses' => "ParticipantsController@search", 'as' => "backend.search"));
 
 });
+
+Route::post('queue/push', function(){
+	return Queue::marshal();
+});
