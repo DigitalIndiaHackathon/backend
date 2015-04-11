@@ -6,7 +6,8 @@
 	"require": {
 		"laravel/framework": "4.2.*",
 		"zizaco/confide": "~4.3@dev",
-		"guzzlehttp/guzzle": "~4.0"
+		"guzzlehttp/guzzle": "~4.0",
+		"iron-io/iron_mq": "dev-master"
 	},
 	"require-dev": {
 		"way/generators": "~2.0",
