@@ -4,7 +4,7 @@ class Challenge extends Eloquent {
 
 	protected $table = "challenges";
 
-	protected $fillable = array('title', 'description', 'user_id');
+	protected $fillable = array('title', 'description', 'user_id', 'team');
 
 	/**
 	 * The User the Challenge belongs to

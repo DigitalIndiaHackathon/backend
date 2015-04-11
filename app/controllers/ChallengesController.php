@@ -32,12 +32,13 @@ class ChallengesController extends \BaseController {
 	 */
 	public function store()
 	{
-		$input = Input::only(array('title', 'description'));
+		$input = Input::only(array('title', 'description','team'));
 		$validator = Validator::make(
 			$input,
 			array(
 				'title' => 'required|min:4',
-				'description' => "required"
+				'description' => "required",
+				'team' => "required|min:3"
 				)
 			);
 
@@ -48,6 +49,7 @@ class ChallengesController extends \BaseController {
 		$challenge = new Challenge;
 		$challenge->title = $input['title'];
 		$challenge->description = $input['description'];
+		$challenge->team = $input['team'];
 		$challenge->user_id = $this->currentUser->id;
 
 		if($challenge->save()){

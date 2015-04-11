@@ -12,6 +12,10 @@
 			<label for="description">Description</label>
 			<textarea class="form-control input-lg" placeholder="Description" type="text" name="description" id="description" rows="10" value="{{{ Input::old('description') }}}"></textarea>
 		</div>
+		<div class="form-group">
+			<label for="team">Team Name</label>
+			<input class="form-control input-lg" placeholder="Team Name" type="text" name="team" id="team" value="{{{ Input::old('team') }}}">
+		</div>
 		@if(Session::has('errors'))
 		<div class="alert alert-danger alert-block">{{$errors->first()}}</div>
 		@endif
