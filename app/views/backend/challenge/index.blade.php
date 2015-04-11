@@ -18,7 +18,7 @@
 		</div>
 		@endforeach
 		@else
-		<h2>We are cooking up some challenges. Stay tuned.</h2>
+		<h2>No challenges found!</h2>
 		@endif
 	</div>
 </div>
