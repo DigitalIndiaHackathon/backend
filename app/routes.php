@@ -1,6 +1,6 @@
 <?php
 
-if (App::environment() !== "local" && App::environment() !== "staging") {
+if (App::environment() !== "local" && App::environment() !== "production") {
 	App::error(function($exception, $code) {
 		switch ($code) {
 			case 403 :
