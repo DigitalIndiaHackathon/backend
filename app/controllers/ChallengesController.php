@@ -105,7 +105,14 @@ class ChallengesController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		//
+		$challenge = Challenge::findOrFail($id);
+		
+		if($challenge->user_id === $this->currentUser->id){
+			$challenge->delete();
+			return Redirect::route('backend.challenges.index');
+		}
+		
+		App::abort(404);
 	}
 
 }
