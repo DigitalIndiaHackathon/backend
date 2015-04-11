@@ -63,7 +63,7 @@ class UsersController extends Controller
     public function login()
     {
         if (Confide::user()) {
-            return Redirect::to('/');
+            return Redirect::route('backend.challenges.index');
         } else {
             return View::make(Config::get('confide::login_form'));
         }
