@@ -2,7 +2,8 @@
 @section('main')
 <div class="main" data-section="true">
 	<div class="container">
-		<div class="page-header">
+		<div class="page-header clearfix">
+			<a href="{{route('backend.challenges.create')}}" class="btn btn-success pull-right challenge-button">Create</a>
 			<h1>Challenges</h1>
 		</div>
 		@if(count($challenges))
