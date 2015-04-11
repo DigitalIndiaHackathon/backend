@@ -24,6 +24,7 @@ class UserRepository
         $user->name = array_get($input, 'name');
 
         $user->username = array_get($input, 'username');
+        $user->link = array_get($input, 'link');
         $user->email    = array_get($input, 'email');
         $user->password = array_get($input, 'password');
 

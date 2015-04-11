@@ -1,0 +1,24 @@
+@extends('layouts.backend')
+@section('main')
+<div class="main" data-section="true">
+	<div class="container">
+		<div class="page-header">
+			<h1>Challenges</h1>
+		</div>
+		@if(count($challenges))
+		@foreach($challenges as $challenge)
+		<div class="media challenge">
+			<div class="media-body">
+				<h3 class="media-heading">
+					<a href="{{route('backend.challenges.show', array($challenge->id))}}">{{{$challenge->title}}}</a>
+				</h3>
+				{{{$challenge->description}}}
+			</div>
+		</div>
+		@endforeach
+		@else
+		<h2>We are cooking up some challenges. Stay tuned.</h2>
+		@endif
+	</div>
+</div>
+@stop

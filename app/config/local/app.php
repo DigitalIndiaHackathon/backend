@@ -17,4 +17,13 @@ return array(
 
 	'url' => 'http://digitalindiahackathon.org',
 
-	);
+	"providers" => append_config(array(
+		'Way\Generators\GeneratorsServiceProvider',
+		'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider'
+		)),
+
+	"aliases" => append_config(array(
+		'Debugbar' => 'Barryvdh\Debugbar\Facade'
+		))
+);

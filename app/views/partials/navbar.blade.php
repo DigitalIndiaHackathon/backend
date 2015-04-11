@@ -16,22 +16,26 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav">
-        <li class="active">
-          <a href="#">Challenges</a>
+        <li class="{{HTML::activeState('backend.challenges.index', array(), true, 'active')}}">
+          <a href="{{route('backend.challenges.index')}}">Challenges</a>
         </li>
-        <li>
-        <a href="#">Participants</a>
+        <li class="{{HTML::activeState('backend.participants', array(), true, 'active')}}">
+          <a href="{{route('backend.participants')}}">Participants</a>
         </li>
       </ul>
+      {{Form::open(array('route' => "backend.search", 'method' => "get", 'class' => "navbar-form navbar-left"))}}
+      <div class="form-group">
+      <input type="text" class="form-control" placeholder="Search Participants" name="search" value="{{Input::get('search')}}">
+      </div>
+      <button type="submit" class="btn btn-sm btn-default">Search</button>
+      {{Form::close()}}
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{$currentUser->name}} <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li>
+              <a href="{{route('auth.logout')}}">Log out</a>
+            </li>
           </ul>
         </li>
       </ul>

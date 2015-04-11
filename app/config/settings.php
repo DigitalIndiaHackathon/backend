@@ -2,11 +2,11 @@
 
 return array(
 	'roles' => array(
-		"entrepreneur" => "Entrepreneur/Founder",
-		"member" => "Team Member",
-		"mentor" => "Mentor",
-		"investor" => "Investor",
-		"speaker" => "Speaker",
-		"media" => "Media OR PR Professional"
+		"Entrepreneur/Founder" => "Entrepreneur/Founder",
+		"Team Member" => "Team Member",
+		"Mentor" => "Mentor",
+		"Investor" => "Investor",
+		"Speaker" => "Speaker",
+		"Media OR PR Professional" => "Media OR PR Professional"
 		)
 	);

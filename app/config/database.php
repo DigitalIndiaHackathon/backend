@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'hackathon',
-			'username'  => 'homestead',
-			'password'  => 'secret',
+			'database'  => $_ENV['DBNAME'],
+			'username'  => $_ENV['DBUSER'],
+			'password'  => $_ENV['DBPASS'],
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
