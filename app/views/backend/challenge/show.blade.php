@@ -11,6 +11,12 @@
 		<p>
 			<b class="text-uppercase">{{$challenge->team}}</b>
 		</p>
+
+		@if($currentUser->id === $challenge->user_id)
+		{{Form::open(array('route' => array("backend.challenges.destroy", $challenge->id), 'method' => "DELETE"))}}
+		<input type="submit" class="btn btn-default" value="Delete" onclick="return confirm('Delete challenge?');">
+		{{Form::close()}}
+		@endif
 	</div>
 </div>
 @stop
