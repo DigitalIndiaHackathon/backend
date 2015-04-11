@@ -89,7 +89,11 @@
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
 								<div class="intro-cta animated fadeInUp">
-									<a href="https://docs.google.com/forms/d/1UCwHB0LR6CtLKJzP-KoyHZrftxPnqxepfXo4tvRAYZI/viewform" class="btn btn-success btn-lg animated tada">Register Now</a>
+									@if(Auth::check())
+									<a href="{{route('backend.challenges.index')}}" class="btn btn-success btn-lg animated tada">Challenges</a>
+									@else
+									<a href="{{route('auth.signup')}}" class="btn btn-success btn-lg animated tada">Register Now</a>
+									@endif
 								</div>
 								<!-- End: Intro CTA -->
 								<!-- Intro Extra -->
