@@ -126,4 +126,4 @@ return array(
     */
     'email_queue' => 'default',
 
-);
+    );

@@ -46,9 +46,15 @@
 										<li>
 											<a href="#schedule-section">Schedule</a>
 										</li>
+										@if(Auth::check())
+										<li>
+											<a href="{{route('backend.challenges.index')}}">Challenges</a>
+										</li>
+										@else
 										<li>
 											<a href="{{route('auth.login')}}">Log in</a>
 										</li>
+										@endif
 										<li>
 											<a href="#contact-section">Contact</a>
 										</li>
