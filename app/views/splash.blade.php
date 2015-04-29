@@ -75,7 +75,7 @@
 							<!-- Intro Box -->
 							<div class="intro-box">
 								<!-- Intro Main -->
-								<h1 class="intro-main animated fadeInUp">Silicon Valley Comes to India.</h1>
+								<h1 class="intro-main animated fadeInUp">Build. Learn. Connect.</h1>
 								<!-- End: Intro Main -->
 								<!-- Intro Tagline -->
 								<h2 class="intro-tagline animated fadeInUp">
@@ -84,7 +84,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									APRIL 11TH - 12TH 2015
+									JUNE 11TH - 14TH 2015
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -118,25 +118,34 @@
 					<!-- Section Title -->
 					<h3 class="section-title">About</h3>
 					<p>
-						We are hosting a 36hrs (two days - one night) hack-a-thon for entrepreneurs and domain professionals @ GTU Innovation Council, Ahmedabad. It will take you through the major steps in starting web &amp; mobile platforms, new business ideas, improving an existing idea, team building, wireframing, prototyping and pitching your idea live to investors and other stakeholders.
+						Digital India Hack-a-thon is about coding together to solve real world problems. Students, Developers,
+						Entrepreneurs, Designers and Idea generators will come together to build amazing applications, in an
+						effort to create world a better place. Participants will spend 48 hours building a solution to a problem
+						they really want to solve.
 					</p>
 					<p>
-						Integrated throughout the day will be examples of disruptive ideas from around Gujarat and Pan India, many of which ‘Silicon Valley comes to India’ hasn't witnessed yet, as well as tips on taking the fear out of making the leap to entrepreneurship.
-						Some leading mentors, technology experts/ trainers and advisers will be on hand throughout the day to answer your questions on challenges you’re facing. The areas we will cover: your business model, revenue model, social media and digital marketing strategy, selling to who and how, etc. and there will be plenty of networking with other start-ups.
+						Integrated throughout the day will be examples of disruptive ideas from around Gujarat and Pan India,
+						many of which ‘Silicon Valley comes to India’ hasn't witnessed yet, as well as tips on taking the fear
+						out of making the leap to entrepreneurship. Some leading mentors, technology experts/ trainers and 
+						advisers will be on hand throughout the span of the event to answer your questions on challenges
+						you’re facing. The areas we will cover: your business model, revenue model, social media and digital
+						marketing strategy, selling to who and how, etc and there will be plenty of networking with other
+						start-ups.
 					</p>
 					<p>
-						Ten years ago, mobile meant making phone calls on the go. It then became about texting and emailing from anywhere, anytime. Then taking, sending and sharing photos. And now videos and apps...and then there is the form factor to consider. Is it a smartphone? A tablet? A wearable? Are these all considered "mobile"?
-						The specific behaviors and devices will keep evolving, but there are three basic, essential principles of mobile marketing that won't:
-						<br>
-						<p>
-							<b>Portable</b>: Your idea must be able to go where the user goes. If it can’t follow the user through his or her day, it's not mobile.
-						</p>
-						<p>
-							<b>Personal</b>: The promise of digital was always and will always be its potential for personapzation. Your idea must cater to the individual needs and desires of every user—and the experience must be unique to her.
-						</p>
-						<p>
-							<b>Perpetual</b>: Your idea has to stand the test of time—24 hours a day, 365 days a year—because mobile is always on. The first thing you reach for in the morning is probably a mobile device. At the office. On your lunch break. Curled up on your couch at home. Even when you're sleeping, your mobile device is with you and on.
-						</p>
+						Pre-hackathon workshop (2 days) will provide relevant support to develop business ideas and skills.
+						On the 1st day, the participants will receive guidance on the concept of the Ideation Model and MVP
+						(minimum viable product). On the 2nd day, workshop on both: technical (coding) &amp; non-technical
+						subjects; will be conducted. The Hack-a-thon will be conducted on day 3 and 4.
+					</p>
+					<!-- Section Title -->
+					<h3 class="section-title">Our Goal</h3>
+					<p>
+						Our goal is to get developers, designers and entrepreneurs come together, form connections and
+						apply their skills to create something of value. By creating a makerspace, creators are engaged and
+						are able to collaborate to create a solution, on which they would go on to build a company. The
+						hackathon will be in an intellectually stimulating environment that will spur innovation and
+						collaboration.
 					</p>
 				</div>
 				<!-- Container -->
@@ -150,12 +159,23 @@
 					<!-- Sponsor List -->
 					<div class="sponsor-list row">
 						<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
-							<a href="http://www.gtuinnovationcouncil.ac.in/" target="_blank" class="sponsor">
-								<img src="{{asset('assets/images/sponsors/gtu')}}.jpg" class="img-responsive" alt="sponsor">
+							<a href="http://www.ldcealumni.net/" target="_blank" class="sponsor">
+								<img src="{{asset('assets/images/sponsors/ld.jpg')}}" class="img-responsive" alt="sponsor">
 							</a>
 						</div>
 					</div>
 					<!-- End: Sponsor List -->
+					<!-- Section Title -->
+					<h3 class="section-title">Interested in Sponsoring?</h3>
+					<p>
+						Technology entreprenurship has taken a whole new meaning in the last 5 years amongst the Indian youth community. Hackathons and incubators provide these entrepreneurs the much needed support to come together and build an application or a company around it.
+					</p>
+					<!-- Section CTA -->
+					<div class="section-cta">
+						<p>Download the sponsorship proposal.</p>
+						<a href="https://db.tt/Trx0HrG3" target="_blank" class="btn btn-success btn-lg">Download</a>
+					</div>
+					<!-- End: Section CTA -->
 				</div>
 				<!-- End: Container -->
 			</div>
@@ -174,7 +194,7 @@
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 1 - Saturday, 11th April</h4>
+									<h4 class="schedule-heading">Day 1 - Thursday, 11th June</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -187,43 +207,19 @@
 										</div>
 										<div class="schedule">
 											<span class="time">10:30 AM</span>
-											<span class="title">Keynote by Chief Guest</span>
+											<span class="title">Keynote</span>
 										</div>
 										<div class="schedule">
 											<span class="time">11:30 AM</span>
-											<span class="title">Opening Remark (Mobile Knowledge Bank/Hackathon Challenges)</span>
+											<span class="title">Why Are Hack-a-thons Important?</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:30 PM</span>
-											<span class="title">Introduction to Mentors/How and where to find your co-founder.</span>
-										</div>
-										<div class="schedule">
-											<span class="time">03:30 PM</span>
-											<span class="title">Introduction to API Integration Team</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:00 PM</span>
-											<span class="title">Tea Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:30 PM</span>
-											<span class="title">Entrepreneurs Pitch ideas to participants</span>
-										</div>
-										<div class="schedule">
-											<span class="time">07:30 PM</span>
-											<span class="title">Idea Showcasing/Hackathon Challenge Team Formation</span>
-										</div>
-										<div class="schedule">
-											<span class="time">08:00 PM</span>
-											<span class="title">Dinner</span>
-										</div>
-										<div class="schedule">
-											<span class="time">09:00 PM</span>
-											<span class="title">Coding starts</span>
+											<span class="time">02:00 PM</span>
+											<span class="title">Ideation Model</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -234,27 +230,109 @@
 								<!-- Schedule Day Two -->
 								<div class="schedule-day-two schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 2 - Sunday, 12th April</h4>
+									<h4 class="schedule-heading">Day 2 - Friday, 12th June</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
-											<span class="time">09:00 AM</span>
-											<span class="title">Workshops by Mentors</span>
+											<span class="time">10:00 AM</span>
+											<span class="title">Non-technical Guidence</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:30 PM</span>
-											<span class="title">Afternoon Session</span>
+											<span class="time">02:00 PM</span>
+											<span class="title">Techanical Guidence</span>
+										</div>
+									</div>
+									<!-- End: Schedule Blocks -->
+								</div>
+								<!-- End: Schedule Day Two -->
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<!-- Schedule Day One -->
+								<div class="schedule-day-one schedule-table">
+									<!-- Schedule Heading -->
+									<h4 class="schedule-heading">Day 3 - Saturday, 13th June</h4>
+									<!-- Schedule Blocks -->
+									<div class="schedule-blocks">
+										<div class="schedule">
+											<span class="time">09:00 AM</span>
+											<span class="title">Registration</span>
 										</div>
 										<div class="schedule">
-											<span class="time">05:00 AM</span>
+											<span class="time">10:00 AM</span>
+											<span class="title">Coding Starts</span>
+										</div>
+										<div class="schedule">
+											<span class="time">01:00 PM</span>
+											<span class="title">Lunch Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">02:00 PM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+										<div class="schedule">
+											<span class="time">05:00 PM</span>
 											<span class="title">Tea Break</span>
 										</div>
 										<div class="schedule">
 											<span class="time">05:30 PM</span>
+											<span class="title">ENTREPRENEURS PITCH IDEAS TO PARTICIPANTS</span>
+										</div>
+										<div class="schedule">
+											<span class="time">06:30 PM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+										<div class="schedule">
+											<span class="time">08:30 PM</span>
+											<span class="title">Dinner</span>
+										</div>
+										<div class="schedule">
+											<span class="time">09:30 PM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+									</div>
+									<!-- End: Schedule Blocks -->
+								</div>
+								<!-- End: Schedule Day One -->
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<!-- Schedule Day Two -->
+								<div class="schedule-day-two schedule-table">
+									<!-- Schedule Heading -->
+									<h4 class="schedule-heading">Day 4 - Sunday, 14th June</h4>
+									<!-- Schedule Blocks -->
+									<div class="schedule-blocks">
+										<div class="schedule">
+											<span class="time">09:00 AM</span>
+											<span class="title">Breakfast</span>
+										</div>
+										<div class="schedule">
+											<span class="time">10:00 AM</span>
+											<span class="title">Team Updates</span>
+										</div>
+										<div class="schedule">
+											<span class="time">11:00 AM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+										<div class="schedule">
+											<span class="time">01:00 PM</span>
+											<span class="title">Lunch Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">02:00 PM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+										<div class="schedule">
+											<span class="time">05:00 PM</span>
+											<span class="title">Tea Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">06:00 PM</span>
 											<span class="title">Pitching and Demo</span>
 										</div>
 									</div>
@@ -318,7 +396,7 @@
 							<!-- Row -->
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-									<a href="http://facebook.com/mobiletechnologypark" target="_blank" class="social-link facebook">
+									<a href="http://facebook.com/digitalindiahack" target="_blank" class="social-link facebook">
 										<i class="icon icon-facebook-square"></i>
 										Like us on Facebook
 									</a>
@@ -347,42 +425,42 @@
 					<div class="sponsor-list team-members row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="https://twitter.com/Pravashdey" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/pravash')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/pravash.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="https://twitter.com/kunalvarma05" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/kunal')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/kunal.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/darshit')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/darshit.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="https://www.facebook.com/Nisarg2995" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/nisarg')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/nisarg.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/meghal')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/meghal.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/riya')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/riya.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/heeta')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/heeta.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/malay')}}.jpg" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/malay.jpg')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 					</div>

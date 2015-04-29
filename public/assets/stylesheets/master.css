@@ -1559,7 +1559,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .schedule-section{background:#0f5b57}
 .schedule-section .section-title{color:#3ddfd4}
 .schedule-section .schedule-tables .schedule-heading{font-weight:lighter;font-size:24px;color:#3ddfd4}
-.schedule-section .schedule-tables .schedule-table{background:#041918;border-radius:5px;padding:20px 25px 1px}
+.schedule-section .schedule-tables .schedule-table{background:#041918;border-radius:5px;padding:20px 25px 1px;margin-bottom:20px}
 .schedule-section .schedule-tables .schedule-blocks{margin-top:30px}
 .schedule-section .schedule-tables .schedule-blocks .schedule{background:rgba(255,255,255,.9);padding:10px 20px;border-radius:3px;margin-bottom:25px;font-size:18px;text-transform:uppercase}
 .schedule-section .schedule-tables .schedule-blocks .schedule .time{color:#1a9d94}
