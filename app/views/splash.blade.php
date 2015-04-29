@@ -385,7 +385,7 @@
 					<!-- Section Title -->
 					<h3 class="section-title">Contact</h3>
 					<p class="section-notice">
-						Have Questions? Feel free to contact us directly at: <a href="mailto:enterpriseindia9@gmail.com"><b>enterpriseindia9@gmail.com</b></a>
+						Have Questions? Feel free to contact us directly at: <a href="mailto:info@digitalindiahack.org"><b>info@digitalindiahack.org</b></a>
 					</p>
 					<!-- Contact Area -->
 					<div class="contact-area">
@@ -420,47 +420,47 @@
 					</div>
 					<!-- End: Contact Area -->
 					<!-- Section Title -->
-					<h3 class="section-title">Team</h3>
+					<h3 class="section-title">Partners-in-crime: The Team</h3>
 					<!-- Sponsor List -->
 					<div class="sponsor-list team-members row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="https://twitter.com/Pravashdey" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/pravash.jpg')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="https://twitter.com/kunalvarma05" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/kunal.jpg')}}" class="img-responsive" alt="team-member">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/gunjan.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/darshit.jpg')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="https://www.facebook.com/Nisarg2995" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/nisarg.jpg')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/heeta.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/meghal.jpg')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/jay.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/riya.jpg')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/komal.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/heeta.jpg')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/kunal.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/malay.jpg')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/pratima.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/pravash.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/riya.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 					</div>

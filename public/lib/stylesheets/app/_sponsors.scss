@@ -36,10 +36,19 @@
 .team-member{
 	display: block;
 	margin-bottom: 15px;
+	//Hover
+	&:hover{
+		//Img
+		img{
+			filter: none;
+		}
+	}
 	img{
-		filter: none !important;
-		//max-height: 280px;
-		//height: 100%;
+		width: 100%;
+		height: 370px;
 		border-radius: 4px;
+		filter: #{"grayscale(100%)"};
+		object-fit: cover;
+		transition: all 0.3s ease-in;
 	}
 }

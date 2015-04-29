@@ -1555,7 +1555,8 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;-webkit-filter:grayscale(100%);filter:grayscale(100%)}
 .team-members{margin-top:30px}
 .team-member{display:block;margin-bottom:15px}
-.team-member img{-webkit-filter:none!important;filter:none!important;border-radius:4px}
+.team-member:hover img{-webkit-filter:none;filter:none}
+.team-member img{width:100%;height:370px;border-radius:4px;-webkit-filter:grayscale(100%);filter:grayscale(100%);object-fit:cover;-webkit-transition:all .3s ease-in;transition:all .3s ease-in}
 .schedule-section{background:#0f5b57}
 .schedule-section .section-title{color:#3ddfd4}
 .schedule-section .schedule-tables .schedule-heading{font-weight:lighter;font-size:24px;color:#3ddfd4}
