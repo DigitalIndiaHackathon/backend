@@ -352,7 +352,7 @@
 								<!-- Venue Map -->
 								<div class="venue-map">
 									<a href="#">
-										<img src="{{asset('assets/images/map.png')}}" alt="Map" class="map img-responsive">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7334.836248626877!2d72.63033890000001!3d23.191428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1430394290764" width="550" height="450" frameborder="0" style="border:0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -364,10 +364,10 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										126, GTU Student Startup Support System Co-Creation Center (S4-C3), ACPC Building, LDCE Complex, Ahmedabad- 380015
+										Info City, Gandhinagar
 									</div>
 									<!-- Map Link -->
-									<a href="https://goo.gl/maps/LdN71" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="https://www.google.co.in/maps/place/Infocity,+Gandhinagar,+Gujarat" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
 								</div>
 							</div>
 						</div>
