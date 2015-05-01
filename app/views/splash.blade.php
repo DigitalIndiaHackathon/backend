@@ -430,7 +430,7 @@
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/heeta.png')}}" class="img-responsive" alt="team-member">
+								<img src="{{asset('assets/images/team/mugshots/meghal.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
