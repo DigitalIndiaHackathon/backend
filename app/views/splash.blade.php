@@ -173,7 +173,7 @@
 					<!-- Section CTA -->
 					<div class="section-cta">
 						<p>Download the sponsorship proposal.</p>
-						<a href="https://db.tt/Trx0HrG3" target="_blank" class="btn btn-success btn-lg">Download</a>
+						<a href="https://db.tt/Bu1PakyQ" target="_blank" class="btn btn-success btn-lg">Download</a>
 					</div>
 					<!-- End: Section CTA -->
 				</div>
