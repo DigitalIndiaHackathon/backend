@@ -84,7 +84,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									JUNE 11TH - 14TH 2015
+									JUNE 12TH - 14TH 2015
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -133,10 +133,9 @@
 						start-ups.
 					</p>
 					<p>
-						Pre-hackathon workshop (2 days) will provide relevant support to develop business ideas and skills.
-						On the 1st day, the participants will receive guidance on the concept of the Ideation Model and MVP
-						(minimum viable product). On the 2nd day, workshop on both: technical (coding) &amp; non-technical
-						subjects; will be conducted. The Hack-a-thon will be conducted on day 3 and 4.
+						Pre-hackathon workshop will provide relevant support to develop business ideas and skills.
+						On the 1st day, the participants will receive guidance on the concept of the Ideation Model, MVP
+						(minimum viable product) and Technical Guidance. The Hack-a-thon will be conducted on day 2 and 3.
 					</p>
 					<!-- Section Title -->
 					<h3 class="section-title">Our Goal</h3>
@@ -194,7 +193,7 @@
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 1 - Thursday, 11th June</h4>
+									<h4 class="schedule-heading">Day 1 - Friday, 12th June</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -221,34 +220,14 @@
 											<span class="time">02:00 PM</span>
 											<span class="title">Ideation Model</span>
 										</div>
+										<div class="schedule">
+											<span class="time">04:00 PM</span>
+											<span class="title">Technical Guidance</span>
+										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
 								</div>
 								<!-- End: Schedule Day One -->
-							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-								<!-- Schedule Day Two -->
-								<div class="schedule-day-two schedule-table">
-									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 2 - Friday, 12th June</h4>
-									<!-- Schedule Blocks -->
-									<div class="schedule-blocks">
-										<div class="schedule">
-											<span class="time">10:00 AM</span>
-											<span class="title">Non-technical Guidence</span>
-										</div>
-										<div class="schedule">
-											<span class="time">01:00 PM</span>
-											<span class="title">Lunch Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">02:00 PM</span>
-											<span class="title">Techanical Guidence</span>
-										</div>
-									</div>
-									<!-- End: Schedule Blocks -->
-								</div>
-								<!-- End: Schedule Day Two -->
 							</div>
 						</div>
 						<div class="row">
@@ -256,7 +235,7 @@
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 3 - Saturday, 13th June</h4>
+									<h4 class="schedule-heading">Day 2 - Saturday, 13th June</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -304,7 +283,7 @@
 								<!-- Schedule Day Two -->
 								<div class="schedule-day-two schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 4 - Sunday, 14th June</h4>
+									<h4 class="schedule-heading">Day 3 - Sunday, 14th June</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -495,5 +474,15 @@
 	<!-- Scripts -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="{{asset('assets/javascripts/master.js')}}"></script>
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-62588599-1', 'auto');
+		ga('send', 'pageview');
+
+	</script>
 </body>
 </html>
