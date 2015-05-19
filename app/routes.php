@@ -42,6 +42,11 @@ Route::get('/', function()
 {
 	return View::make('splash');
 });
+
+Route::get('register', function()
+{
+	return Redirect::to('http://eepurl.com/bnPlEf');
+});
 //
 
 //Auth Routes
