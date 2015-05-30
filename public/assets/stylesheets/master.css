@@ -1552,7 +1552,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .sponsor-list{margin-bottom:100px}
 .sponsor-list .sponsor{display:block;margin-bottom:15px}
 .sponsor-list .sponsor:hover img{-webkit-filter:none;filter:none}
-.sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;-webkit-filter:grayscale(100%);filter:grayscale(100%)}
+.sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;padding:15px}
 .team-members{margin-top:30px}
 .team-member{display:block;margin-bottom:15px}
 .team-member:hover img{-webkit-filter:none;filter:none}

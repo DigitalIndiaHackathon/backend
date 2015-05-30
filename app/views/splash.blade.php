@@ -154,12 +154,29 @@
 				<!-- Container -->
 				<div class="container">
 					<!-- Section Title -->
-					<h3 class="section-title">Sponsors</h3>
+					<h3 class="section-title">Supported by</h3>
 					<!-- Sponsor List -->
 					<div class="sponsor-list row">
-						<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12">
+						<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+							<a href="http://theinfocity.net/" target="_blank" class="sponsor">
+								<img src="{{asset('assets/images/sponsors/infocity.png')}}" class="img-responsive" alt="sponsor">
+							</a>
+							<b>VENUE PARTNER</b>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
+							<a href="http://interestship.com" target="_blank" class="sponsor">
+								<img src="{{asset('assets/images/sponsors/interestship.png')}}" class="img-responsive" alt="sponsor">
+							</a>
+							<b>OPPORTUNITY PARTNER</b>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
 							<a href="http://www.ldcealumni.net/" target="_blank" class="sponsor">
 								<img src="{{asset('assets/images/sponsors/ld.jpg')}}" class="img-responsive" alt="sponsor">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
+							<a href="http://gdgahmedabad.com" target="_blank" class="sponsor">
+								<img src="{{asset('assets/images/sponsors/gdg.png')}}" class="img-responsive" alt="sponsor">
 							</a>
 						</div>
 					</div>
