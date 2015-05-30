@@ -56,6 +56,9 @@
 										</li>
 										@endif
 										<li>
+											<a href="#faq-section">FAQ</a>
+										</li>
+										<li>
 											<a href="#contact-section">Contact</a>
 										</li>
 									</ul>
@@ -345,8 +348,8 @@
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<!-- Venue Map -->
 								<div class="venue-map">
-									<a href="#">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7334.836248626877!2d72.63033890000001!3d23.191428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1430394290764" frameborder="0"></iframe>
+									<a href="https://www.google.com/maps/place/The+Infocity+-+The+Global+IT+Hub/@23.191428,72.630339,15z/data=!4m2!3m1!1s0x0000000000000000:0xa5c52a12a1286368?hl=en-US">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14669.672497253754!2d72.630339!3d23.191428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa5c52a12a1286368!2sThe+Infocity+-+The+Global+IT+Hub!5e0!3m2!1sen!2sin!4v1433014919850" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -358,7 +361,7 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										Info City, Gandhinagar
+										InfoCity IT Hub, Gandhinagar
 									</div>
 									<!-- Map Link -->
 									<a href="https://www.google.co.in/maps/place/Infocity,+Gandhinagar,+Gujarat" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
@@ -372,6 +375,144 @@
 				<!-- End: Container -->
 			</div>
 			<!-- End: Schedule Section -->
+			<!-- FAQ Section -->
+			<div class="faq-section section" data-section="true" id="faq-section">
+				<!-- Container -->
+				<div class="container">
+					<!-- Section Title -->
+					<h3 class="section-title">FAQ</h3>
+					<!-- End: Section Title -->
+					<!-- FAQ List -->
+					<div class="faq-list">
+						<!-- Row -->
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What’s the application process like?</a></h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												We’re looking for creative and innovative people having a set of skills that can contribute to a project: mobile, web, design, or anything else really useful.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">What do you mean by "HACK"?</a></h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<div class="panel-body">
+												Don't worry. It's just a bunch of passionate and innovative people getting together to build things that solve problems. A hackathon is a way to get people together to make useful stuff.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">Do I need a team?</a></h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												It's not necessary to have a pre-formed team. You can connect and form your own team at the event. You can have a team of up to 5 people.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingSeven">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">I don't know how to program?</a></h4>
+										</div>
+										<div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+											<div class="panel-body">
+												No problem! The Hack-a-thon is not only for developers. It's for anyone willing to create something innovative and/or learn new and amazing stuff. If you have an idea that can solve a real problem, you're most welcome!
+												<br>
+												We will have a bunch of workshops aimed to help inexperienced people learn a few lines of code. Plus you can talk to the awesome people attending to learn more.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingEight">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseEight" aria-expanded="true" aria-controls="collapseEight">What can I make?</a></h4>
+										</div>
+										<div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+											<div class="panel-body">
+												Anything that pertains to technology. As long as it's legal and ethical, you're good.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="panel-group" id="accordion-two" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingFour">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">What do I need to bring?</a></h4>
+										</div>
+										<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+											<div class="panel-body">
+												<b>Required</b>: A Laptop and charger. Mobile and charger. An extra t-shirt.
+												<br>
+												<b>Not Necessary</b>: A pre-formed team, an idea for an app or eatables.
+												<br>
+												We'll provide you lots of healthy food to keep you supercharged! We'll also provide space to sleep or take a nap if you feel exhausted.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingFive">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Will I be charged?</a></h4>
+										</div>
+										<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												<b>Nope</b>. DIH is completely FREE, including delicious food and snacks :)
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingSix">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseSix" aria-expanded="true" aria-controls="collapseSix">Can I work on an existing project?</a></h4>
+										</div>
+										<div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+											<div class="panel-body">
+												Sorry but everything must be new. But do feel free to work on ideas, design, and branding beforehand.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingNine">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseNine" aria-expanded="true" aria-controls="collapseNine">Do I need to stay at the event the entire time?</a></h4>
+										</div>
+										<div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+											<div class="panel-body">
+												Due to security reasons, we will have to ask you to stay at the venue unless a parent/guardian picks you up and drops you off at the event. In our previous hackathon, many people stay up the entire two days to get their project finished in time; however, we will have arrangements for you to sleep if you wish to do so.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTen">
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseTen" aria-expanded="true" aria-controls="collapseTen">How awesome will it be?</a></h4>
+										</div>
+										<div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+											<div class="panel-body">
+												Very awesome. Even more than this Pikachu!
+												<div class="text-center">
+													<a>
+														<img src="{{asset('assets/images/pikachu.png')}}" width="200" height="200" class="img-responsive" alt="pikachu">
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End: Row -->
+					</div>
+					<!-- End: FAQ List -->
+				</div>
+				<!-- End: Container -->
+			</div>
+			<!-- End: FAQ Section -->
 			<!-- Contact Section -->
 			<div class="contact-section section" data-section="true" id="contact-section">
 				<!-- Container -->
@@ -379,7 +520,7 @@
 					<!-- Section Title -->
 					<h3 class="section-title">Contact</h3>
 					<p class="section-notice">
-						Have Questions? Feel free to contact us directly at: <a href="mailto:info@digitalindiahack.org"><b>info@digitalindiahack.org</b></a>
+						Have Questions? Feel free to contact us directly at: <a href="mailto:info@digitalindiahack.org"><b>info@digitalindiahack.org</b></a> (Our reply will be real quick! :D)
 					</p>
 					<!-- Contact Area -->
 					<div class="contact-area">
