@@ -189,7 +189,7 @@
 					<div class="schedule-tables">
 						<!-- Row -->
 						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
@@ -202,15 +202,19 @@
 										</div>
 										<div class="schedule">
 											<span class="time">10:00 AM</span>
-											<span class="title">Introduction to Web-Mobile Technology</span>
-										</div>
-										<div class="schedule">
-											<span class="time">10:30 AM</span>
 											<span class="title">Keynote</span>
 										</div>
 										<div class="schedule">
-											<span class="time">11:30 AM</span>
+											<span class="time">10:30 AM</span>
 											<span class="title">Why Are Hack-a-thons Important?</span>
+										</div>
+										<div class="schedule">
+											<span class="time">11:00 AM</span>
+											<span class="title">Pitching Session</span>
+										</div>
+										<div class="schedule">
+											<span class="time">12:00 AM</span>
+											<span class="title">Team Formation</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
@@ -222,16 +226,14 @@
 										</div>
 										<div class="schedule">
 											<span class="time">04:00 PM</span>
-											<span class="title">Technical Guidance</span>
+											<span class="title">High Tea and Networking</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
@@ -240,11 +242,15 @@
 									<div class="schedule-blocks">
 										<div class="schedule">
 											<span class="time">09:00 AM</span>
-											<span class="title">Registration</span>
+											<span class="title">Breakfast</span>
 										</div>
 										<div class="schedule">
 											<span class="time">10:00 AM</span>
-											<span class="title">Coding Starts</span>
+											<span class="title">Technical Workshop</span>
+										</div>
+										<div class="schedule">
+											<span class="time">12:00 PM</span>
+											<span class="title">Team Registration</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
@@ -252,7 +258,7 @@
 										</div>
 										<div class="schedule">
 											<span class="time">02:00 PM</span>
-											<span class="title">Coding Continues</span>
+											<span class="title">Coding Begins</span>
 										</div>
 										<div class="schedule">
 											<span class="time">05:00 PM</span>
@@ -260,10 +266,6 @@
 										</div>
 										<div class="schedule">
 											<span class="time">05:30 PM</span>
-											<span class="title">ENTREPRENEURS PITCH IDEAS TO PARTICIPANTS</span>
-										</div>
-										<div class="schedule">
-											<span class="time">06:30 PM</span>
 											<span class="title">Coding Continues</span>
 										</div>
 										<div class="schedule">
@@ -279,7 +281,7 @@
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
 								<!-- Schedule Day Two -->
 								<div class="schedule-day-two schedule-table">
 									<!-- Schedule Heading -->
@@ -405,11 +407,6 @@
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/gunjan.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/meghal.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
