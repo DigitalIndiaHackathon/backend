@@ -1569,6 +1569,7 @@ td.visible-print,th.visible-print{display:table-cell!important}}
 .schedule-section .venue-details{margin-top:40px}
 .schedule-section .venue-details .venue-map{margin-bottom:30px}
 .schedule-section .venue-details .venue-map a{display:block}
+.schedule-section .venue-details .venue-map iframe{max-width:100%;width:100%;height:450px}
 .schedule-section .venue-details .venue-map img{border-radius:4px;width:100%}
 .schedule-section .venue-details .venue-address{font-weight:lighter}
 .schedule-section .venue-details .venue-address .title{color:rgba(255,255,255,.6);font-weight:lighter;margin-top:0;font-size:24px}

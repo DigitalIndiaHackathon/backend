@@ -206,7 +206,7 @@
 					<div class="schedule-tables">
 						<!-- Row -->
 						<div class="row">
-							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
@@ -250,7 +250,7 @@
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
@@ -264,10 +264,6 @@
 										<div class="schedule">
 											<span class="time">10:00 AM</span>
 											<span class="title">Technical Workshop</span>
-										</div>
-										<div class="schedule">
-											<span class="time">12:00 PM</span>
-											<span class="title">Team Registration</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
@@ -298,7 +294,7 @@
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-							<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
 								<!-- Schedule Day Two -->
 								<div class="schedule-day-two schedule-table">
 									<!-- Schedule Heading -->
@@ -350,7 +346,7 @@
 								<!-- Venue Map -->
 								<div class="venue-map">
 									<a href="#">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7334.836248626877!2d72.63033890000001!3d23.191428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1430394290764" width="550" height="450" frameborder="0" style="border:0"></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7334.836248626877!2d72.63033890000001!3d23.191428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1430394290764" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -472,7 +468,7 @@
 							<a href="http://kunalvarma.in" class="btn btn-block btn-link">Designed by Kunal Varma.</a>
 						</div>
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<a href="index.htm" class="copyright btn-block btn btn-link">Digital India Hackathon. 2015 - All rights reserved.</a>
+							<a href="index.htm" class="copyright btn-block btn btn-link">2015 - All rights reserved.</a>
 						</div>
 					</div>
 					<!-- End: Row -->
