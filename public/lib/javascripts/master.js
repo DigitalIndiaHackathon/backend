@@ -9,6 +9,11 @@
 //= require third-party/fittext.js
 
 /**
+ * lightbox.js
+ */
+//= require third-party/lightbox.js
+
+/**
  * App
  */
 //= require app/app.js

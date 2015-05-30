@@ -149,6 +149,71 @@
 						hackathon will be in an intellectually stimulating environment that will spur innovation and
 						collaboration.
 					</p>
+					<!-- Section Title -->
+					<h3 class="section-title">Glimpse of our Previous Event</h3>
+					<p>
+						In our previous hack-a-thon, held on 11th-12th April, approx. 90 participants had attended the event. At the end of the event, we had 13 working applications out of which the top 6 were selected. Here is a brief glimpse of the hackathon:
+					</p>
+					<div class="row">
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/one.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/one.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/two.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/two.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/three.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/three.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/four.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/four.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/five.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/five.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/six.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/six.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/seven.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/seven.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/eight.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/eight.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/nine.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/nine.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
+							<a href="{{asset('assets/images/april/ten.jpg')}}" class="block gallery-item">
+								<img src="{{asset('assets/images/april/thumb/ten.jpg')}}" class="img-responsive">
+							</a>
+						</div>
+						<div class="col-lg-4 col-l-4 col-sm-12 col-xs-12">
+							<!-- Section CTA -->
+							<div class="section-cta">
+								<p>The complete report of the previous event can be downloaded.</p>
+								<a href="https://db.tt/D35ydPbX" target="_blank" class="btn btn-default btn-lg">Download</a>
+							</div>
+							<!-- End: Section CTA -->
+						</div>
+					</div>
 				</div>
 				<!-- Container -->
 			</div>
