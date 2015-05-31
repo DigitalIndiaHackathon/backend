@@ -35,9 +35,6 @@
 									<!-- Nav Main -->
 									<ul class="nav nav-main">
 										<li>
-											<a href="#main-section">Home</a>
-										</li>
-										<li>
 											<a href="#about-section">About</a>
 										</li>
 										<li>
@@ -57,6 +54,9 @@
 										@endif
 										<li>
 											<a href="#faq-section">FAQ</a>
+										</li>
+										<li>
+											<a href="http://digitalindiahack.tumblr.com" target="_blank">Blog</a>
 										</li>
 										<li>
 											<a href="#contact-section">Contact</a>

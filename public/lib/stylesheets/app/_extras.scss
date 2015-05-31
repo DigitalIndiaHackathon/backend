@@ -38,5 +38,9 @@ body{
 	margin-bottom: 10px;
 	img{
 		border-radius: 4px;
+		object-fit: cover;
 	}
+}
+.block{
+	display: block;
 }

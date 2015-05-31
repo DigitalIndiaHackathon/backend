@@ -1743,7 +1743,8 @@ body{overflow-x:hidden}
 .padding-lg{padding:15px}
 .padding-md{padding:10px}
 .gallery-box{margin-bottom:10px}
-.gallery-box img{border-radius:4px}
+.gallery-box img{border-radius:4px;object-fit:cover}
+.block{display:block}
 @media (max-width:992px){.header .header-nav{display:none;position:fixed;z-index:1000;max-width:100%;width:300px;right:0;top:0;bottom:0;background:#0f5b57;box-shadow:-1px 0 4px rgba(0,0,0,.3);overflow:auto}
 .header .header-nav.shown{display:block;-webkit-animation-duration:.3s;animation-duration:.3s}
 .header .header-nav .nav-main{display:block;margin:0}
