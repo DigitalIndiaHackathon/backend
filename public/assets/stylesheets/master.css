@@ -1686,10 +1686,11 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-m
 .intro .intro-box .intro-extra{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-delay:2s;animation-delay:2s;margin-top:40px}
 .intro .intro-box .intro-extra a{color:#fff;background:rgba(0,0,0,.5);padding:10px 40px;text-decoration:none}
 .intro .intro-box .intro-extra a:hover{background:rgba(0,0,0,.6)}
-.sponsor-list{margin-bottom:100px}
+.sponsor-list{margin-bottom:80px}
+.sponsor-list .row{margin-bottom:20px}
 .sponsor-list .sponsor{display:block;margin-bottom:15px}
 .sponsor-list .sponsor:hover img{-webkit-filter:none;filter:none}
-.sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;padding:15px}
+.sponsor-list .sponsor img{-webkit-transition:all .3s ease-in;transition:all .3s ease-in;background:#eee;border-radius:3px;padding:15px;margin:auto}
 .team-members{margin-top:30px}
 .team-member{display:block;margin-bottom:15px}
 .team-member:hover img{-webkit-filter:none;filter:none}

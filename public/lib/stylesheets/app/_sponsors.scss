@@ -6,7 +6,10 @@
 
 //Sponsor List
 .sponsor-list{
-	margin-bottom: 100px;
+	margin-bottom: 80px;
+	.row{
+		margin-bottom: 20px;
+	}
 	//Sponsor
 	.sponsor{
 		display: block;
@@ -24,6 +27,7 @@
 			background: #eee;
 			border-radius: 3px;
 			padding: 15px;
+			margin: auto;
 		}
 	}
 }
