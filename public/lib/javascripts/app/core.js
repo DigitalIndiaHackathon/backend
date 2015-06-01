@@ -80,7 +80,7 @@
         	}, 3000);
 
         	setTimeout(function(){
-        		var target = $("#criminals");
+        		var target = $("#pratima");
         		$('html,body').animate({
         			scrollTop: target.offset().top
         		}, 1000);
@@ -95,13 +95,6 @@
         		pratima.find("img").addClass('bright');
         		pikachu.addClass('pika-pika');
         		$.playSound('/assets/pikachu');
-        	}, 5000);
-
-        	setTimeout(function(){
-        		var target = $("#criminals");
-        		$('html,body').animate({
-        			scrollTop: target.offset().top
-        		}, 1000);
         	}, 5000);
 
         }
