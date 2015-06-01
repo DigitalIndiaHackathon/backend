@@ -571,7 +571,7 @@
 												Very awesome. Even more than this Pikachu!
 												<div class="text-center">
 													<a>
-														<img src="{{asset('assets/images/pikachu.png')}}" width="200" height="200" class="img-responsive" alt="pikachu">
+														<img id="pikachu" src="{{asset('assets/images/pikachu.png')}}" width="200" height="200" class="img-responsive" alt="pikachu">
 													</a>
 												</div>
 											</div>
@@ -629,7 +629,7 @@
 					</div>
 					<!-- End: Contact Area -->
 					<!-- Section Title -->
-					<h3 class="section-title">Partners-in-crime: The Team</h3>
+					<h3 class="section-title" id="criminals">Partners-in-crime: The Team</h3>
 					<!-- Sponsor List -->
 					<div class="sponsor-list team-members row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
@@ -653,7 +653,7 @@
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
+							<a href="#" target="_blank" class="team-member" id="pratima">
 								<img src="{{asset('assets/images/team/mugshots/pratima.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>

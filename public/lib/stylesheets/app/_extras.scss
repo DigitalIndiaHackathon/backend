@@ -3,44 +3,60 @@
  * Author: Kunal Varma
  * Version: 1.0.0
  */
-a{
-	transition: all 0.3s linear;
-}
+ a{
+ 	transition: all 0.3s linear;
+ }
 
-body{
-	overflow-x: hidden;
-}
-.toBeAnimated{
-	visibility: hidden;
-	display: none;
-}
-.shown{
-	display: block !important;
-}
-.container-sm{
-	width: 400px;
-	margin: auto;
-}
-.container-md{
-	width: 550px;
-	margin: auto;
-}
-.padding-sm{
-	padding: 5px;
-}
-.padding-lg{
-	padding: 15px;
-}
-.padding-md{
-	padding: 10px;
-}
-.gallery-box{
-	margin-bottom: 10px;
-	img{
-		border-radius: 4px;
-		object-fit: cover;
-	}
-}
-.block{
-	display: block;
-}
+ body{
+ 	overflow-x: hidden;
+ }
+ .toBeAnimated{
+ 	visibility: hidden;
+ 	display: none;
+ }
+ .shown{
+ 	display: block !important;
+ }
+ .container-sm{
+ 	width: 400px;
+ 	margin: auto;
+ }
+ .container-md{
+ 	width: 550px;
+ 	margin: auto;
+ }
+ .padding-sm{
+ 	padding: 5px;
+ }
+ .padding-lg{
+ 	padding: 15px;
+ }
+ .padding-md{
+ 	padding: 10px;
+ }
+ .gallery-box{
+ 	margin-bottom: 10px;
+ 	img{
+ 		border-radius: 4px;
+ 		object-fit: cover;
+ 	}
+ }
+ .block{
+ 	display: block;
+ }
+ .pika{
+ 	position: fixed;
+ 	top: 20px;
+ 	left: 20px;
+ 	transition: all 0.3s linear;
+ 	z-index: 10000;
+ }
+ .bright{
+ 	filter: none !important;
+ }
+ .pika-pika{
+ 	position: absolute;
+ 	top: 0px !important;
+ 	width: 100px !important;
+ 	height: 100px !important;
+ }
