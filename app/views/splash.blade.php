@@ -423,7 +423,7 @@
 								<!-- Venue Map -->
 								<div class="venue-map">
 									<a href="https://www.google.com/maps/place/The+Infocity+-+The+Global+IT+Hub/@23.191428,72.630339,15z/data=!4m2!3m1!1s0x0000000000000000:0xa5c52a12a1286368?hl=en-US">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14669.672497253754!2d72.630339!3d23.191428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xa5c52a12a1286368!2sThe+Infocity+-+The+Global+IT+Hub!5e0!3m2!1sen!2sin!4v1433014919850" frameborder="0"></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.316252049409!2d72.63617010000003!3d23.195142600000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3835fcd989%3A0x72162948f00be3a8!2sInfocity+Club+%26+Resort!5e0!3m2!1sen!2sin!4v1434026268884" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -435,7 +435,7 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										InfoCity IT Hub, Gandhinagar
+										InfoCity Club and Resorts, Gandhinagar
 									</div>
 									<!-- Map Link -->
 									<a href="https://www.google.co.in/maps/place/Infocity,+Gandhinagar,+Gujarat" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
