@@ -51,7 +51,7 @@
 
                 <div class="form-group">
                     <label for="link">Link</label>
-                    <input class="form-control" placeholder="Name" type="text" name="link" id="link" value="{{{ Input::old('link') }}}">
+                    <input class="form-control" placeholder="Link" type="text" name="link" id="link" value="{{{ Input::old('link') }}}">
                     <div class="help-block">
                     A link to your facebook, twitter, github profile or website.
                     </div>
