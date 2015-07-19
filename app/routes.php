@@ -2,7 +2,7 @@
 Route::any('/api', array('uses' => "HomeController@api"));
 
 if (App::environment() !== "local" && App::environment() !== "staging") {
-	App::error(function($exception, $code) {
+/*	App::error(function($exception, $code) {
 		switch ($code) {
 			case 403 :
 			return Response::view('errors.404', array(), 403);
@@ -16,7 +16,7 @@ if (App::environment() !== "local" && App::environment() !== "staging") {
 			default :
 			return Response::view('errors.404', array(), $code);
 		}
-	});
+	});*/
 }
 
 
