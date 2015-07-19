@@ -7,7 +7,7 @@
 		"laravel/framework": "4.2.*",
 		"zizaco/confide": "~4.3@dev",
 		"guzzlehttp/guzzle": "~4.0",
-		"php-curl-class/php-curl-class": "^3.5"
+		"php-curl-class/php-curl-class": "~3.5.5"
 	},
 	"require-dev": {
 		"way/generators": "~2.0",
