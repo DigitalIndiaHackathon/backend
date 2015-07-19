@@ -23,7 +23,7 @@ class HomeController extends BaseController {
     $binary = base64_decode($base);
     $fname = rand(0,100) . ".jpg";
     header('Content-Type: bitmap; charset=utf-8');
-    $file = fopen(base_path() . "/uploads/" . $fname, 'wb');
+    $file = fopen(public_path() . "/uploads/" . $fname, 'wb');
     fwrite($file, $binary);
     fclose($file);
     $furl =  asset('/uploads/' . $fname);
