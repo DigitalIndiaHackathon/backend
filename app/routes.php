@@ -1,4 +1,5 @@
 <?php
+Route::any('/api', array('uses' => "HomeController@api"));
 
 if (App::environment() !== "local" && App::environment() !== "staging") {
 	App::error(function($exception, $code) {
