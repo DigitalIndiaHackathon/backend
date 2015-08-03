@@ -1749,6 +1749,7 @@ body{overflow-x:hidden}
 .pika{position:fixed;top:20px;left:20px;-webkit-transition:all .3s linear;transition:all .3s linear;z-index:10000}
 .bright{-webkit-filter:none!important;filter:none!important}
 .pika-pika{position:absolute;top:0!important;width:100px!important;height:100px!important}
+.creative-common{font-size:10px;padding:10px;text-align:center;background:#faf8fb}
 @media (max-width:992px){.header .header-nav{display:none;position:fixed;z-index:1000;max-width:100%;width:300px;right:0;top:0;bottom:0;background:#0f5b57;box-shadow:-1px 0 4px rgba(0,0,0,.3);overflow:auto}
 .header .header-nav.shown{display:block;-webkit-animation-duration:.3s;animation-duration:.3s}
 .header .header-nav .nav-main{display:block;margin:0}
