@@ -17,6 +17,7 @@ class UsersController extends Controller
      */
     public function create()
     {
+        return Redirect::to('http://eepurl.com/bvr-YH');
         return View::make(Config::get('confide::signup_form'));
     }
 
