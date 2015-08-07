@@ -87,7 +87,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									JUNE 12TH - 14TH 2015
+									SEPTEMBER 4TH - 6TH 2015
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -95,7 +95,7 @@
 									@if(Auth::check())
 									<a href="{{route('backend.challenges.index')}}" class="btn btn-success btn-lg animated tada">Challenges</a>
 									@else
-									<a href="#" class="btn btn-success btn-lg animated tada">Registerations Closed!</a>
+									<a href="http://eepurl.com/bvr-YH" class="btn btn-success btn-lg animated tada">Register</a>
 									@endif
 								</div>
 								<!-- End: Intro CTA -->
@@ -246,13 +246,6 @@
 							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
 								<a href="http://gdgahmedabad.com" target="_blank" class="sponsor">
 									<img src="{{asset('assets/images/sponsors/gdg.png')}}" class="img-responsive" alt="sponsor">
-								</a>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
-								<a href="http://www.ldcealumni.net/" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/ld.jpg')}}" class="img-responsive" alt="sponsor">
 								</a>
 							</div>
 						</div>
