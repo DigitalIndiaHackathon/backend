@@ -228,9 +228,9 @@
 						<div class="row">
 							<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
 								<a href="http://theinfocity.net/" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/infocity.png')}}" class="img-responsive" alt="sponsor">
+									<img src="{{asset('assets/images/sponsors/1947.png')}}" class="img-responsive" alt="sponsor">
 								</a>
-								<b>VENUE PARTNER</b>
+								<b>IN ASSOCIATION WITH</b>
 							</div>
 							<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
 								<a href="http://interestship.com" target="_blank" class="sponsor">
@@ -288,32 +288,32 @@
 											<span class="title">Registration</span>
 										</div>
 										<div class="schedule">
-											<span class="time">10:00 AM</span>
-											<span class="title">Keynote</span>
-										</div>
-										<div class="schedule">
 											<span class="time">10:30 AM</span>
-											<span class="title">Why Are Hack-a-thons Important?</span>
+											<span class="title">Keynote and Intro to 1947</span>
 										</div>
 										<div class="schedule">
-											<span class="time">11:00 AM</span>
+											<span class="time">11:30 AM</span>
 											<span class="title">Pitching Session</span>
-										</div>
-										<div class="schedule">
-											<span class="time">12:00 AM</span>
-											<span class="title">Team Formation</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:00 PM</span>
-											<span class="title">Ideation Model</span>
+											<span class="time">02:30 PM</span>
+											<span class="title">Team Formation and Ideation</span>
 										</div>
 										<div class="schedule">
-											<span class="time">04:00 PM</span>
-											<span class="title">High Tea and Networking</span>
+											<span class="time">05:00 AM</span>
+											<span class="title">Tea Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">06:30 AM</span>
+											<span class="title">Start Coding</span>
+										</div>
+										<div class="schedule">
+											<span class="time">08:30 AM</span>
+											<span class="title">Dinner</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -328,28 +328,24 @@
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
-											<span class="time">09:00 AM</span>
-											<span class="title">Breakfast</span>
+											<span class="time">12:00 AM</span>
+											<span class="title">Midnight Snack Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">10:00 AM</span>
-											<span class="title">Technical Workshop</span>
+											<span class="time">01:00 AM</span>
+											<span class="title">Coding Continues</span>
+										</div>
+										<div class="schedule">
+											<span class="time">08:00 AM</span>
+											<span class="title">Breakfast</span>
 										</div>
 										<div class="schedule">
 											<span class="time">01:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:00 PM</span>
-											<span class="title">Coding Begins</span>
-										</div>
-										<div class="schedule">
 											<span class="time">05:00 PM</span>
 											<span class="title">Tea Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:30 PM</span>
-											<span class="title">Coding Continues</span>
 										</div>
 										<div class="schedule">
 											<span class="time">08:30 PM</span>
@@ -357,7 +353,7 @@
 										</div>
 										<div class="schedule">
 											<span class="time">09:30 PM</span>
-											<span class="title">Coding Continues</span>
+											<span class="title">Participants can leave if they want to, but will have to be present the next day.</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -381,23 +377,15 @@
 										</div>
 										<div class="schedule">
 											<span class="time">11:00 AM</span>
-											<span class="title">Coding Continues</span>
+											<span class="title">Coding Ends</span>
 										</div>
 										<div class="schedule">
-											<span class="time">01:00 PM</span>
-											<span class="title">Lunch Break</span>
+											<span class="time">12:00 PM</span>
+											<span class="title">Pitching and Demo</span>
 										</div>
 										<div class="schedule">
 											<span class="time">02:00 PM</span>
-											<span class="title">Coding Continues</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:00 PM</span>
-											<span class="title">Tea Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">06:00 PM</span>
-											<span class="title">Pitching and Demo</span>
+											<span class="title">Wrap up</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -416,7 +404,7 @@
 								<!-- Venue Map -->
 								<div class="venue-map">
 									<a href="https://www.google.com/maps/place/The+Infocity+-+The+Global+IT+Hub/@23.191428,72.630339,15z/data=!4m2!3m1!1s0x0000000000000000:0xa5c52a12a1286368?hl=en-US">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3667.316252049409!2d72.63617010000003!3d23.195142600000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3835fcd989%3A0x72162948f00be3a8!2sInfocity+Club+%26+Resort!5e0!3m2!1sen!2sin!4v1434026268884" frameborder="0"></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.5739147966178!2d72.62955999999807!3d23.19297699842644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3afe0e978d%3A0xa7036f3d120c27eb!2s1947+%3A+Co-Working+Space+Infocity+Gujarat!5e0!3m2!1sen!2sin!4v1440399511789" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -428,10 +416,10 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										InfoCity Club and Resorts, Gandhinagar
+										1947 Co-working Space, InfoCity, Gandhinagar
 									</div>
 									<!-- Map Link -->
-									<a href="https://www.google.co.in/maps/place/Infocity,+Gandhinagar,+Gujarat" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="https://www.google.co.in/maps/place/1947+:+Co-Working+Space+Infocity+Gujarat/@23.192977,72.62956,18z/data=!4m7!1m4!3m3!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb!2s1947+:+Co-Working+Space+Infocity+Gujarat!3b1!3m1!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb?hl=en" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
 								</div>
 							</div>
 						</div>
@@ -628,11 +616,6 @@
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/gunjan.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/jay.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
