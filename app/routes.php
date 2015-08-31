@@ -46,7 +46,7 @@ Route::get('/', function()
 
 Route::get('register', function()
 {
-	return Redirect::to('http://eepurl.com/bnPlEf');
+	return Redirect::to('http://eepurl.com/bvr-YH');
 });
 //
 
