@@ -17,7 +17,7 @@ class UsersController extends Controller
      */
     public function create()
     {
-        return Redirect::to('http://eepurl.com/bvr-YH');
+        return Redirect::to('/');
         return View::make(Config::get('confide::signup_form'));
     }
 
@@ -28,6 +28,7 @@ class UsersController extends Controller
      */
     public function store()
     {
+        return Redirect::to('/');
         $repo = App::make('UserRepository');
         $user = $repo->signup(Input::all());
 
