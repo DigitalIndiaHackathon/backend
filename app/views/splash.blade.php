@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Digital India Hackathon 2015</title>
+	<title>Digital India Hackathon 2016</title>
 	<meta name="description" content="Silicon valley comes to India.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
@@ -87,7 +87,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									SEPTEMBER 4TH - 6TH 2015
+									SEPTEMBER 4TH - 6TH 2016
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -277,43 +277,43 @@
 					<div class="schedule-tables">
 						<!-- Row -->
 						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 1 - Friday, 4th September</h4>
+									<h4 class="schedule-heading">Day 1 - Friday, 21st September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
-											<span class="time">09:00 AM</span>
+											<span class="time">08:00 AM</span>
 											<span class="title">Registration</span>
 										</div>
 										<div class="schedule">
-											<span class="time">10:30 AM</span>
+											<span class="time">09:00 AM</span>
 											<span class="title">Keynote and Intro to 1947</span>
 										</div>
 										<div class="schedule">
-											<span class="time">11:30 AM</span>
+											<span class="time">10:30 AM</span>
 											<span class="title">Pitching Session</span>
 										</div>
 										<div class="schedule">
-											<span class="time">01:00 PM</span>
+											<span class="time">12:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:30 PM</span>
+											<span class="time">01:00 PM</span>
 											<span class="title">Team Formation and Ideation</span>
 										</div>
 										<div class="schedule">
-											<span class="time">05:00 AM</span>
+											<span class="time">04:00 PM</span>
 											<span class="title">Tea Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">06:30 AM</span>
+											<span class="time">04:30 PM</span>
 											<span class="title">Start Coding</span>
 										</div>
 										<div class="schedule">
-											<span class="time">08:30 AM</span>
+											<span class="time">08:00 PM</span>
 											<span class="title">Dinner</span>
 										</div>
 									</div>
@@ -321,11 +321,11 @@
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<!-- Schedule Day One -->
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<!-- Schedule Day Two -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 2 - Saturday, 5th September</h4>
+									<h4 class="schedule-heading">Day 2 - Saturday, 22nd September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -337,56 +337,28 @@
 											<span class="title">Coding Continues</span>
 										</div>
 										<div class="schedule">
-											<span class="time">08:00 AM</span>
+											<span class="time">07:00 AM</span>
 											<span class="title">Breakfast</span>
-										</div>
-										<div class="schedule">
-											<span class="time">01:00 PM</span>
-											<span class="title">Lunch Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:00 PM</span>
-											<span class="title">Tea Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">08:30 PM</span>
-											<span class="title">Dinner</span>
-										</div>
-										<div class="schedule">
-											<span class="time">09:30 PM</span>
-											<span class="title">Participants can leave if they want to, but will have to be present the next day.</span>
-										</div>
-									</div>
-									<!-- End: Schedule Blocks -->
-								</div>
-								<!-- End: Schedule Day One -->
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<!-- Schedule Day Two -->
-								<div class="schedule-day-two schedule-table">
-									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 3 - Sunday, 6th September</h4>
-									<!-- Schedule Blocks -->
-									<div class="schedule-blocks">
-										<div class="schedule">
-											<span class="time">09:00 AM</span>
-											<span class="title">Breakfast</span>
-										</div>
-										<div class="schedule">
-											<span class="time">10:00 AM</span>
-											<span class="title">Team Updates</span>
-										</div>
-										<div class="schedule">
-											<span class="time">11:00 AM</span>
-											<span class="title">Coding Ends</span>
 										</div>
 										<div class="schedule">
 											<span class="time">12:00 PM</span>
-											<span class="title">Pitching and Demo</span>
+											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:00 PM</span>
-											<span class="title">Wrap up</span>
+											<span class="time">01:00 PM</span>
+											<span class="title">Business Model and Coding</span>
+										</div>
+										<div class="schedule">
+											<span class="time">03:30 PM</span>
+											<span class="title">Tea Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">04:00 PM</span>
+											<span class="title">Team Updates</span>
+										</div>
+										<div class="schedule">
+											<span class="time">06:00 PM</span>
+											<span class="title">Pitching and Demo</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -404,8 +376,8 @@
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<!-- Venue Map -->
 								<div class="venue-map">
-									<a href="https://www.google.com/maps/place/The+Infocity+-+The+Global+IT+Hub/@23.191428,72.630339,15z/data=!4m2!3m1!1s0x0000000000000000:0xa5c52a12a1286368?hl=en-US">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.5739147966178!2d72.62955999999807!3d23.19297699842644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3afe0e978d%3A0xa7036f3d120c27eb!2s1947+%3A+Co-Working+Space+Infocity+Gujarat!5e0!3m2!1sen!2sin!4v1440399511789" frameborder="0"></iframe>
+									<a href="https://goo.gl/maps/FTfydBCF62t">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d544.8925829560377!2d72.65361260612464!3d23.25815652729233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7556c42eeb896585!2sGovernment+Engineering+College%2C+Sector+-+28!5e0!3m2!1sen!2sin!4v1473063945951" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -417,10 +389,11 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										1947 Co-working Space, InfoCity, Gandhinagar
+									C.V. Raman hall, 1st Floor, Building no.1, Admin Block, Government Engineering College, Sector 28, Gandhinagar.
 									</div>
 									<!-- Map Link -->
-									<a href="https://www.google.co.in/maps/place/1947+:+Co-Working+Space+Infocity+Gujarat/@23.192977,72.62956,18z/data=!4m7!1m4!3m3!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb!2s1947+:+Co-Working+Space+Infocity+Gujarat!3b1!3m1!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb?hl=en" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="https://goo.gl/maps/FTfydBCF62t" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="http://www.gecg28.ac.in/" target="_blank" class="btn btn-default map-link"><i class="icon icon-link icon-left"></i> Venue Website</a>
 								</div>
 							</div>
 						</div>
