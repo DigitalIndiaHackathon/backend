@@ -8,7 +8,7 @@
 				<a href="http://kunalvarma.in" class="btn btn-block btn-link">Designed by Kunal Varma.</a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-				<a href="index.htm" class="copyright btn-block btn btn-link">Digital India Hackathon. 2015 - All rights reserved.</a>
+				<a href="index.htm" class="copyright btn-block btn btn-link">Digital India Hackathon. 2016 - All rights reserved.</a>
 			</div>
 		</div>
 		<!-- End: Row -->

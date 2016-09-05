@@ -389,7 +389,7 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-									C.V. Raman hall, 1st Floor, Building no.1, Admin Block, Government Engineering College, Sector 28, Gandhinagar.
+										C.V. Raman hall, 1st Floor, Building no.1, Admin Block, Government Engineering College, Sector 28, Gandhinagar.
 									</div>
 									<!-- Map Link -->
 									<a href="https://goo.gl/maps/FTfydBCF62t" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
@@ -589,32 +589,12 @@
 					<div class="sponsor-list team-members row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/gunjan.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/komal.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/kunal.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member" id="pratima">
-								<img src="{{asset('assets/images/team/mugshots/pratima.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/pravash.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/riya.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 					</div>
