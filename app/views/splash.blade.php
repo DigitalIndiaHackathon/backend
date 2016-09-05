@@ -127,11 +127,6 @@
 						marketing strategy, selling to who and how, etc and there will be plenty of networking with other
 						start-ups.
 					</p>
-					<p>
-						Pre-hackathon workshop will provide relevant support to develop business ideas and skills.
-						On the 1st day, the participants will receive guidance on the concept of the Ideation Model, MVP
-						(minimum viable product) and Technical Guidance. The Hack-a-thon will be conducted on day 2 and 3.
-					</p>
 					<!-- Section Title -->
 					<h3 class="section-title">Our Goal</h3>
 					<p>
