@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Digital India Hackathon 2015</title>
+	<title>Digital India Hackathon 2016</title>
 	<meta name="description" content="Silicon valley comes to India.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
@@ -43,15 +43,6 @@
 										<li>
 											<a href="#schedule-section">Schedule</a>
 										</li>
-										@if(Auth::check())
-										<li>
-											<a href="{{route('backend.challenges.index')}}">Challenges</a>
-										</li>
-										@else
-										<li>
-											<a href="{{route('auth.login')}}">Log in</a>
-										</li>
-										@endif
 										<li>
 											<a href="#faq-section">FAQ</a>
 										</li>
@@ -87,7 +78,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									SEPTEMBER 4TH - 6TH 2015
+									SEPTEMBER 21ST - 22ND 2016
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -95,7 +86,7 @@
 									@if(Auth::check())
 									<a href="{{route('backend.challenges.index')}}" class="btn btn-success btn-lg animated tada">Challenges</a>
 									@else
-									<a href="#" class="btn btn-success btn-lg animated tada">Registration Closed!</a>
+									<a href="http://eepurl.com/ceg2nP" class="btn btn-success btn-lg animated tada">REGISTER</a>
 									{{--<a href="http://eepurl.com/bvr-YH" class="btn btn-success btn-lg animated tada">Register</a>--}}
 									@endif
 								</div>
@@ -150,71 +141,6 @@
 						hackathon will be in an intellectually stimulating environment that will spur innovation and
 						collaboration.
 					</p>
-					<!-- Section Title -->
-					<h3 class="section-title">Glimpse of our Previous Event</h3>
-					<p>
-						In our previous hack-a-thon, held on 11th-12th April, approx. 90 participants had attended the event. At the end of the event, we had 13 working applications out of which the top 6 were selected. Here is a brief glimpse of the hackathon:
-					</p>
-					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/one.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/one.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/two.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/two.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/three.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/three.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/four.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/four.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/five.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/five.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/six.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/six.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/seven.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/seven.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/eight.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/eight.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/nine.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/nine.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/ten.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/ten.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-4 col-l-4 col-sm-12 col-xs-12">
-							<!-- Section CTA -->
-							<div class="section-cta">
-								<p>The complete report of the previous event can be downloaded.</p>
-								<a href="https://db.tt/D35ydPbX" target="_blank" class="btn btn-default btn-lg">Download</a>
-							</div>
-							<!-- End: Section CTA -->
-						</div>
-					</div>
 				</div>
 				<!-- Container -->
 			</div>
@@ -231,22 +157,10 @@
 								<a href="http://theinfocity.net/" target="_blank" class="sponsor">
 									<img src="{{asset('assets/images/sponsors/1947.png')}}" class="img-responsive" alt="sponsor">
 								</a>
-								<b>IN ASSOCIATION WITH</b>
-							</div>
-							<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
-								<a href="http://interestship.com" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/interestship.png')}}" class="img-responsive" alt="sponsor">
-								</a>
-								<b>OPPORTUNITY PARTNER</b>
 							</div>
 							<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
 								<a href="http://mygov.in" target="_blank" class="sponsor">
 									<img src="{{asset('assets/images/sponsors/gov.png')}}" class="img-responsive" alt="sponsor">
-								</a>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
-								<a href="http://gdgahmedabad.com" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/gdg.png')}}" class="img-responsive" alt="sponsor">
 								</a>
 							</div>
 						</div>
@@ -259,8 +173,7 @@
 					</p>
 					<!-- Section CTA -->
 					<div class="section-cta">
-						<p>Download the sponsorship proposal.</p>
-						<a href="https://db.tt/Bu1PakyQ" target="_blank" class="btn btn-success btn-lg">Download</a>
+						<a href="mailto:info@digitalindiahack.org?Subject=Sponsor+Digital+India+Hackathon" target="_blank" class="btn btn-success btn-lg">SPONSOR DIH</a>
 					</div>
 					<!-- End: Section CTA -->
 				</div>
@@ -277,43 +190,43 @@
 					<div class="schedule-tables">
 						<!-- Row -->
 						<div class="row">
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 1 - Friday, 4th September</h4>
+									<h4 class="schedule-heading">Day 1 - Friday, 21st September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
-											<span class="time">09:00 AM</span>
+											<span class="time">08:00 AM</span>
 											<span class="title">Registration</span>
 										</div>
 										<div class="schedule">
-											<span class="time">10:30 AM</span>
+											<span class="time">09:00 AM</span>
 											<span class="title">Keynote and Intro to 1947</span>
 										</div>
 										<div class="schedule">
-											<span class="time">11:30 AM</span>
+											<span class="time">10:30 AM</span>
 											<span class="title">Pitching Session</span>
 										</div>
 										<div class="schedule">
-											<span class="time">01:00 PM</span>
+											<span class="time">12:00 PM</span>
 											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:30 PM</span>
+											<span class="time">01:00 PM</span>
 											<span class="title">Team Formation and Ideation</span>
 										</div>
 										<div class="schedule">
-											<span class="time">05:00 AM</span>
+											<span class="time">04:00 PM</span>
 											<span class="title">Tea Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">06:30 AM</span>
+											<span class="time">04:30 PM</span>
 											<span class="title">Start Coding</span>
 										</div>
 										<div class="schedule">
-											<span class="time">08:30 AM</span>
+											<span class="time">08:00 PM</span>
 											<span class="title">Dinner</span>
 										</div>
 									</div>
@@ -321,11 +234,11 @@
 								</div>
 								<!-- End: Schedule Day One -->
 							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<!-- Schedule Day One -->
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<!-- Schedule Day Two -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 2 - Saturday, 5th September</h4>
+									<h4 class="schedule-heading">Day 2 - Saturday, 22nd September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -337,56 +250,28 @@
 											<span class="title">Coding Continues</span>
 										</div>
 										<div class="schedule">
-											<span class="time">08:00 AM</span>
+											<span class="time">07:00 AM</span>
 											<span class="title">Breakfast</span>
-										</div>
-										<div class="schedule">
-											<span class="time">01:00 PM</span>
-											<span class="title">Lunch Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">05:00 PM</span>
-											<span class="title">Tea Break</span>
-										</div>
-										<div class="schedule">
-											<span class="time">08:30 PM</span>
-											<span class="title">Dinner</span>
-										</div>
-										<div class="schedule">
-											<span class="time">09:30 PM</span>
-											<span class="title">Participants can leave if they want to, but will have to be present the next day.</span>
-										</div>
-									</div>
-									<!-- End: Schedule Blocks -->
-								</div>
-								<!-- End: Schedule Day One -->
-							</div>
-							<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<!-- Schedule Day Two -->
-								<div class="schedule-day-two schedule-table">
-									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 3 - Sunday, 6th September</h4>
-									<!-- Schedule Blocks -->
-									<div class="schedule-blocks">
-										<div class="schedule">
-											<span class="time">09:00 AM</span>
-											<span class="title">Breakfast</span>
-										</div>
-										<div class="schedule">
-											<span class="time">10:00 AM</span>
-											<span class="title">Team Updates</span>
-										</div>
-										<div class="schedule">
-											<span class="time">11:00 AM</span>
-											<span class="title">Coding Ends</span>
 										</div>
 										<div class="schedule">
 											<span class="time">12:00 PM</span>
-											<span class="title">Pitching and Demo</span>
+											<span class="title">Lunch Break</span>
 										</div>
 										<div class="schedule">
-											<span class="time">02:00 PM</span>
-											<span class="title">Wrap up</span>
+											<span class="time">01:00 PM</span>
+											<span class="title">Business Model and Coding</span>
+										</div>
+										<div class="schedule">
+											<span class="time">03:30 PM</span>
+											<span class="title">Tea Break</span>
+										</div>
+										<div class="schedule">
+											<span class="time">04:00 PM</span>
+											<span class="title">Team Updates</span>
+										</div>
+										<div class="schedule">
+											<span class="time">06:00 PM</span>
+											<span class="title">Pitching and Demo</span>
 										</div>
 									</div>
 									<!-- End: Schedule Blocks -->
@@ -404,8 +289,8 @@
 							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 								<!-- Venue Map -->
 								<div class="venue-map">
-									<a href="https://www.google.com/maps/place/The+Infocity+-+The+Global+IT+Hub/@23.191428,72.630339,15z/data=!4m2!3m1!1s0x0000000000000000:0xa5c52a12a1286368?hl=en-US">
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1833.5739147966178!2d72.62955999999807!3d23.19297699842644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2a3afe0e978d%3A0xa7036f3d120c27eb!2s1947+%3A+Co-Working+Space+Infocity+Gujarat!5e0!3m2!1sen!2sin!4v1440399511789" frameborder="0"></iframe>
+									<a href="https://goo.gl/maps/FTfydBCF62t">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d544.8925829560377!2d72.65361260612464!3d23.25815652729233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7556c42eeb896585!2sGovernment+Engineering+College%2C+Sector+-+28!5e0!3m2!1sen!2sin!4v1473063945951" frameborder="0"></iframe>
 									</a>
 								</div>
 								<!-- End: Venue Map -->
@@ -417,10 +302,11 @@
 									<h3 class="title">Venue</h3>
 									<!-- Address -->
 									<div class="address">
-										1947 Co-working Space, InfoCity, Gandhinagar
+										C.V. Raman hall, 1st Floor, Building no.1, Admin Block, Government Engineering College, Sector 28, Gandhinagar.
 									</div>
 									<!-- Map Link -->
-									<a href="https://www.google.co.in/maps/place/1947+:+Co-Working+Space+Infocity+Gujarat/@23.192977,72.62956,18z/data=!4m7!1m4!3m3!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb!2s1947+:+Co-Working+Space+Infocity+Gujarat!3b1!3m1!1s0x395c2a3afe0e978d:0xa7036f3d120c27eb?hl=en" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="https://goo.gl/maps/FTfydBCF62t" target="_blank" class="btn btn-default map-link"><i class="icon icon-map-marker icon-left"></i> View on Google Maps</a>
+									<a href="http://www.gecg28.ac.in/" target="_blank" class="btn btn-default map-link"><i class="icon icon-link icon-left"></i> Venue Website</a>
 								</div>
 							</div>
 						</div>
@@ -516,7 +402,7 @@
 									</div>
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingFive">
-											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Will I be charged?</a></h4>
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Is there a fee?</a></h4>
 										</div>
 										<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 											<div class="panel-body">
@@ -616,32 +502,12 @@
 					<div class="sponsor-list team-members row">
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/gunjan.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/komal.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/kunal.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member" id="pratima">
-								<img src="{{asset('assets/images/team/mugshots/pratima.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/pravash.png')}}" class="img-responsive" alt="team-member">
-							</a>
-						</div>
-						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-							<a href="#" target="_blank" class="team-member">
-								<img src="{{asset('assets/images/team/mugshots/riya.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 					</div>

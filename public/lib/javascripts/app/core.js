@@ -61,42 +61,4 @@
 			enabled:true
 		}
 	});
-	$( window ).konami({
-        code : [80,73,75,65,67,72,85],
-        cheat: function() {
-        	var collapse = $("[href=#collapseTen]");
-
-        	$('html,body').animate({
-        		scrollTop: collapse.offset().top
-        	}, 1000);
-
-        	setTimeout(function(){
-        		collapse.click();
-        	}, 2000);
-
-        	setTimeout(function(){
-        		var pikachu = $("#pikachu");
-        		pikachu.addClass('pika');
-        	}, 3000);
-
-        	setTimeout(function(){
-        		var target = $("#pratima");
-        		$('html,body').animate({
-        			scrollTop: target.offset().top
-        		}, 1000);
-        	}, 4000);
-
-        	setTimeout(function(){
-        		var pikachu = $("#pikachu");
-        		var pratima = $("#pratima");
-
-        		pikachu.appendTo('#pratima');
-        		pikachu.removeClass('pika');
-        		pratima.find("img").addClass('bright');
-        		pikachu.addClass('pika-pika');
-        		$.playSound('/assets/pikachu');
-        	}, 5000);
-
-        }
-    });
 });
