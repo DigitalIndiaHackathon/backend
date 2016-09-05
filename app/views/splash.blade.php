@@ -43,15 +43,6 @@
 										<li>
 											<a href="#schedule-section">Schedule</a>
 										</li>
-										@if(Auth::check())
-										<li>
-											<a href="{{route('backend.challenges.index')}}">Challenges</a>
-										</li>
-										@else
-										<li>
-											<a href="{{route('auth.login')}}">Log in</a>
-										</li>
-										@endif
 										<li>
 											<a href="#faq-section">FAQ</a>
 										</li>
@@ -87,7 +78,7 @@
 								<!-- End: Intro Tagline -->
 								<!-- Intro Dates -->
 								<div class="intro-dates animated fadeInUp">
-									SEPTEMBER 4TH - 6TH 2016
+									SEPTEMBER 21ST - 22ND 2016
 								</div>
 								<!-- End: Intro Dates -->
 								<!-- Intro CTA -->
@@ -95,7 +86,7 @@
 									@if(Auth::check())
 									<a href="{{route('backend.challenges.index')}}" class="btn btn-success btn-lg animated tada">Challenges</a>
 									@else
-									<a href="#" class="btn btn-success btn-lg animated tada">Registration Closed!</a>
+									<a href="http://eepurl.com/ceg2nP" class="btn btn-success btn-lg animated tada">REGISTER</a>
 									{{--<a href="http://eepurl.com/bvr-YH" class="btn btn-success btn-lg animated tada">Register</a>--}}
 									@endif
 								</div>
@@ -150,71 +141,6 @@
 						hackathon will be in an intellectually stimulating environment that will spur innovation and
 						collaboration.
 					</p>
-					<!-- Section Title -->
-					<h3 class="section-title">Glimpse of our Previous Event</h3>
-					<p>
-						In our previous hack-a-thon, held on 11th-12th April, approx. 90 participants had attended the event. At the end of the event, we had 13 working applications out of which the top 6 were selected. Here is a brief glimpse of the hackathon:
-					</p>
-					<div class="row">
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/one.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/one.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/two.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/two.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/three.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/three.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/four.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/four.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/five.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/five.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/six.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/six.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/seven.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/seven.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/eight.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/eight.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/nine.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/nine.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4 gallery-box">
-							<a href="{{asset('assets/images/april/ten.jpg')}}" class="block gallery-item">
-								<img src="{{asset('assets/images/april/thumb/ten.jpg')}}" class="img-responsive">
-							</a>
-						</div>
-						<div class="col-lg-4 col-l-4 col-sm-12 col-xs-12">
-							<!-- Section CTA -->
-							<div class="section-cta">
-								<p>The complete report of the previous event can be downloaded.</p>
-								<a href="https://db.tt/D35ydPbX" target="_blank" class="btn btn-default btn-lg">Download</a>
-							</div>
-							<!-- End: Section CTA -->
-						</div>
-					</div>
 				</div>
 				<!-- Container -->
 			</div>
@@ -231,22 +157,10 @@
 								<a href="http://theinfocity.net/" target="_blank" class="sponsor">
 									<img src="{{asset('assets/images/sponsors/1947.png')}}" class="img-responsive" alt="sponsor">
 								</a>
-								<b>IN ASSOCIATION WITH</b>
-							</div>
-							<div class="col-lg-5 col-md-5 col-sm-6 col-xs-12 text-center">
-								<a href="http://interestship.com" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/interestship.png')}}" class="img-responsive" alt="sponsor">
-								</a>
-								<b>OPPORTUNITY PARTNER</b>
 							</div>
 							<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
 								<a href="http://mygov.in" target="_blank" class="sponsor">
 									<img src="{{asset('assets/images/sponsors/gov.png')}}" class="img-responsive" alt="sponsor">
-								</a>
-							</div>
-							<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 text-center">
-								<a href="http://gdgahmedabad.com" target="_blank" class="sponsor">
-									<img src="{{asset('assets/images/sponsors/gdg.png')}}" class="img-responsive" alt="sponsor">
 								</a>
 							</div>
 						</div>
@@ -259,8 +173,7 @@
 					</p>
 					<!-- Section CTA -->
 					<div class="section-cta">
-						<p>Download the sponsorship proposal.</p>
-						<a href="https://db.tt/Bu1PakyQ" target="_blank" class="btn btn-success btn-lg">Download</a>
+						<a href="mailto:info@digitalindiahack.org?Subject=Sponsor+Digital+India+Hackathon" target="_blank" class="btn btn-success btn-lg">SPONSOR DIH</a>
 					</div>
 					<!-- End: Section CTA -->
 				</div>
@@ -489,7 +402,7 @@
 									</div>
 									<div class="panel panel-default">
 										<div class="panel-heading" role="tab" id="headingFive">
-											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Will I be charged?</a></h4>
+											<h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion-two" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">Is there a fee?</a></h4>
 										</div>
 										<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
 											<div class="panel-body">

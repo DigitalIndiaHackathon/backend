@@ -45,37 +45,37 @@ Route::get('/', function()
 
 Route::get('register', function()
 {
-	return Redirect::to('http://eepurl.com/bvr-YH');
+	return Redirect::to('http://eepurl.com/ceg2nP');
 });
 //
 
-//Auth Routes
-Route::group(array('prefix' => "auth"), function(){
+// //Auth Routes
+// Route::group(array('prefix' => "auth"), function(){
 
-	Route::group(array('before' => "guest"), function(){
-		Route::get('users/create', array('uses' => 'UsersController@create', 'as' => "auth.signup"));
-		Route::post('users', array('uses' => 'UsersController@store', 'as' => "auth.signup.post"));
-		Route::get('users/login', array('uses' => 'UsersController@login', 'as' => "auth.login"));
-		Route::post('users/login', array('uses' => 'UsersController@doLogin', 'as' => "auth.login.post"));
-		Route::get('users/confirm/{code}', array('uses' => 'UsersController@confirm', 'as' => "auth.confirm"));
-		Route::get('users/forgot_password', array('uses' => 'UsersController@forgotPassword', 'as' => "auth.forgot_password"));
-		Route::post('users/forgot_password', array('uses' => 'UsersController@doForgotPassword', 'as' => "auth.forgot_password.post"));
-		Route::get('users/reset_password/{token}', array('uses' => 'UsersController@resetPassword', 'as' => "auth.reset_password"));
-		Route::post('users/reset_password', array('uses' => 'UsersController@doResetPassword', 'as' => "auth.reset_password.post"));
-	});
+// 	Route::group(array('before' => "guest"), function(){
+// 		Route::get('users/create', array('uses' => 'UsersController@create', 'as' => "auth.signup"));
+// 		Route::post('users', array('uses' => 'UsersController@store', 'as' => "auth.signup.post"));
+// 		Route::get('users/login', array('uses' => 'UsersController@login', 'as' => "auth.login"));
+// 		Route::post('users/login', array('uses' => 'UsersController@doLogin', 'as' => "auth.login.post"));
+// 		Route::get('users/confirm/{code}', array('uses' => 'UsersController@confirm', 'as' => "auth.confirm"));
+// 		Route::get('users/forgot_password', array('uses' => 'UsersController@forgotPassword', 'as' => "auth.forgot_password"));
+// 		Route::post('users/forgot_password', array('uses' => 'UsersController@doForgotPassword', 'as' => "auth.forgot_password.post"));
+// 		Route::get('users/reset_password/{token}', array('uses' => 'UsersController@resetPassword', 'as' => "auth.reset_password"));
+// 		Route::post('users/reset_password', array('uses' => 'UsersController@doResetPassword', 'as' => "auth.reset_password.post"));
+// 	});
 
-Route::get('users/logout', array('uses' => 'UsersController@logout', 'as' => "auth.logout", 'before' => "auth"));
-});
+// Route::get('users/logout', array('uses' => 'UsersController@logout', 'as' => "auth.logout", 'before' => "auth"));
+// });
 
-//Backend Routes
-Route::group(array('prefix' => "backend", 'before' => "auth"), function(){
+// //Backend Routes
+// Route::group(array('prefix' => "backend", 'before' => "auth"), function(){
 
-	Route::resource('challenges', 'ChallengesController');
-	Route::get('participants', array('uses' => "ParticipantsController@index", 'as' => "backend.participants"));
-	Route::get('search', array('uses' => "ParticipantsController@search", 'as' => "backend.search"));
+// 	Route::resource('challenges', 'ChallengesController');
+// 	Route::get('participants', array('uses' => "ParticipantsController@index", 'as' => "backend.participants"));
+// 	Route::get('search', array('uses' => "ParticipantsController@search", 'as' => "backend.search"));
 
-});
+// });
 
-Route::post('queue/push', function(){
-	return Queue::marshal();
-});
+// Route::post('queue/push', function(){
+// 	return Queue::marshal();
+// });
