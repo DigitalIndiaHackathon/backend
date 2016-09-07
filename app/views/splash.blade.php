@@ -189,7 +189,7 @@
 								<!-- Schedule Day One -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 1 - Friday, 21st September</h4>
+									<h4 class="schedule-heading">Day 1 - Wednesday, 21st September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
@@ -233,7 +233,7 @@
 								<!-- Schedule Day Two -->
 								<div class="schedule-day-one schedule-table">
 									<!-- Schedule Heading -->
-									<h4 class="schedule-heading">Day 2 - Saturday, 22nd September</h4>
+									<h4 class="schedule-heading">Day 2 - Thursday, 22nd September</h4>
 									<!-- Schedule Blocks -->
 									<div class="schedule-blocks">
 										<div class="schedule">
