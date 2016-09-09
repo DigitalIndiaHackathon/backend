@@ -158,6 +158,11 @@
 									<img src="{{asset('assets/images/sponsors/gov.png')}}" class="img-responsive" alt="sponsor">
 								</a>
 							</div>
+							<div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 text-center">
+								<a href="https://developers.google.com/groups/" target="_blank" class="sponsor">
+									<img src="{{asset('assets/images/sponsors/gdg.png')}}" class="img-responsive" alt="sponsor">
+								</a>
+							</div>
 						</div>
 					</div>
 					<!-- End: Sponsor List -->
@@ -503,6 +508,36 @@
 						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 							<a href="#" target="_blank" class="team-member">
 								<img src="{{asset('assets/images/team/mugshots/pravash.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/chandresh.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/chirag.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/aman.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/rajat.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/ravi.png')}}" class="img-responsive" alt="team-member">
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<a href="#" target="_blank" class="team-member">
+								<img src="{{asset('assets/images/team/mugshots/shailesh.png')}}" class="img-responsive" alt="team-member">
 							</a>
 						</div>
 					</div>
