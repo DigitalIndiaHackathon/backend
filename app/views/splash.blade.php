@@ -174,6 +174,7 @@
 					<!-- Section CTA -->
 					<div class="section-cta">
 						<a href="mailto:info@digitalindiahack.org?Subject=Sponsor+Digital+India+Hackathon" target="_blank" class="btn btn-success btn-lg">SPONSOR DIH</a>
+						<a href="https://db.tt/Bu1PakyQ" target="_blank" class="btn btn-default btn-lg">Download Sponsorship Proposal</a>
 					</div>
 					<!-- End: Section CTA -->
 				</div>
