@@ -86,8 +86,7 @@
 									@if(Auth::check())
 									<a href="{{route('backend.challenges.index')}}" class="btn btn-success btn-lg animated tada">Challenges</a>
 									@else
-									<a href="http://eepurl.com/ceg2nP" class="btn btn-success btn-lg animated tada">REGISTER</a>
-									{{--<a href="http://eepurl.com/bvr-YH" class="btn btn-success btn-lg animated tada">Register</a>--}}
+									<a href="#" class="btn btn-success btn-lg animated tada">REGISTRATIONS CLOSED</a>
 									@endif
 								</div>
 								<!-- End: Intro CTA -->
